@@ -9,10 +9,10 @@
   <body class="catalog-page">
     <header class="page-header">
       <nav class="page-header-navigation">
-        <img class="page-header-logo" src="#" alt="Glaccy Shop Logo">
+        <a class="index-link" href="index.html"><img class="page-header-logo" src="#" alt="Glaccy Shop Logo"></a>
         <ul class="navigation-menu">
           <li>
-            <a class="selected" href="/catalog.html">Каталог</a>
+            <a class="selected" href="catalog.html">Каталог</a>
 
             <ul class="catalog-categories">
               <li><a class="new-goods categoires-link" href="#">Новинки</a></li>
@@ -32,8 +32,50 @@
       <ul class="page-header-authorization">
         <li><a class="authorization-link" href="#">Вход</a></li>
       </ul>
+      
+      <ul class="cart-operations">
+        <li><a class="cart filled-cart" href="#" aria-label="Корзина покупок">2 товара</a></li>
+        <li class="cart-goods">
+          <table class="goods-table">
+            <tr class="visually-hidden">
+              <th>Наименование товара</th>
+              <th>Количество товара/Цена</th>
+              <th>Итоговая цена позиции</th>
+            </tr>
+            <tr>
+              <td>
+                <a class="delete-cart-position" href="#">Удалить позицию</a>
+                <p class="description">Пломбир с апельсиновым джемом</p>
+              </td>
+              <td>
+                1,5 кг х <span class="position-price">200 руб.</span>
+              </td>
+              <td>
+                300 руб.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a class="delete-cart-position" href="#">Удалить позицию</a>
+                <p class="description">Клубничный пломбир с присыпкой из белого шоколада</p>
+              </td>
+              <td>
+                1,5 кг х <span class="position-price">300 руб.</span>
+              </td>
+              <td>
+                450 руб.
+              </td>
+            </tr>
+            <tr>
+              <td class="cart-price" colspan="3">
+                Итого: 750 руб.
+              </td>
+            </tr>
+          </table>
 
-      <a class="cart filled-cart" href="#" aria-label="Корзина покупок">2 товара</a>
+          <a class="buy-link" href="#">Оформить заказ</a>
+        </li>
+      </ul>
     </header>
 
     <main>
