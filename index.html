@@ -42,10 +42,10 @@
           <a class="authentication-link" href="#">Вход</a>
           <form class="authentication" method="post" action="https://echo.htmlacademy.ru/">
             <label class="visually-hidden" for="authentication-email-field" aria-label="Электронная почта"></label>
-            <input class="authentication-field" type="email" id="authentication-email-field" placeholder="Электронная почта">
+            <input class="authentication-field" type="email" id="authentication-email-field" name="email" placeholder="Электронная почта">
 
             <label class="visually-hidden" for="password-field" aria-label="Пароль"></label>
-            <input class="authentication-field" type="password" id="password-field" placeholder="Пароль">
+            <input class="authentication-field" type="password" id="password-field" name="password" placeholder="Пароль">
 
             <a class="authentication-link" href="#">Забыли пароль?</a>
             <a class="authentication-link" href="#">Новая регистрация</a>
@@ -171,7 +171,7 @@
         
         <form class="subscription-form" method="post" action="https://echo.htmlacademy.ru">
           <label class="visually-hidden" for="subscription-email-field" aria-label="Электронная почта"></label>
-          <input class="subscription-email-field" type="email" id="subscription-email-field" placeholder="Электронная почта">
+          <input class="subscription-email-field" type="email" id="subscription-email-field" name="email" placeholder="Электронная почта">
 
           <button class="button subscription-form-button" type="submit">Отправить</button>
         </form>
@@ -217,13 +217,13 @@
       <p>Мы обязательно вам ответим!</p>
       <form class="contact-us-form" method="post" action="https://echo.htmlacademy.ru">
         <label class="visually-hidden" for="name-field" aria-label="Имя"></label>
-        <input class="contact-us-field" type="text" id="name-field" placeholder="Как вас зовут?">
+        <input class="contact-us-field" type="text" id="name-field" name="customer-name" placeholder="Как вас зовут?">
 
         <label class="visually-hidden" for="contact-us-email-field" aria-label="Email"></label>
-        <input class="email-field" type="email" id="contact-us-email-field" placeholder="Ваша почта для ответа?">        
+        <input class="email-field" type="email" id="contact-us-email-field" name="email" placeholder="Ваша почта для ответа?">        
 
         <label class="visually-hidden" for="form-message" aria-label="Текст обращения"></label>
-        <textarea class="form-message-field" id="form-message">Напишите что-нибудь...</textarea>
+        <textarea class="form-message-field" id="form-message" name="message">Напишите что-нибудь...</textarea>
 
         <button class="button contact-us-button" type="submit">Отправить</button>
       </form>
