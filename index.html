@@ -25,8 +25,17 @@
           <li><a href="#">О Компании</a></li>
         </ul>
       </nav>
+      
+      <section class="search-section">
+        <h2 class="visually-hidden">Поиск по сайту</h2>
 
-      <div class="search-form-placeholder"></div>
+        <a class="search-button" href="#" aria-label="Поиск"></a>
+        <form class="search" method="get" action="https://echo.htmlacademy.ru/">        
+          <label class="visually-hidden" for="search-field">Строка поиска</label>
+          <input class="search-field" type="search" name="search" id="search-field" placeholder="Что ищем?">
+          <button class="visually-hidden" type="submit" aria-label="Найти"></button>
+        </form>
+      </section>
 
       <ul class="page-header-authorization">
         <li><a class="authorization-link" href="#">Вход</a></li>
