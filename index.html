@@ -166,7 +166,13 @@
         <h2 class="visually-hidden">Подписка на рассылку</h2>
 
         <p class="subscription-decription">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
-        <div class="form-for-subscription-placeholder"></div>
+        
+        <form class="subscription-form" method="post" action="https://echo.htmlacademy.ru">
+          <label class="visually-hidden" for="subscription-email-field" aria-label="Электронная почта"></label>
+          <input class="subscription-email-field" type="email" id="subscription-email-field" placeholder="Электронная почта">
+
+          <button class="button subscription-form-button" type="submit">Отправить</button>
+        </form>
       </section>
 
       <section>
