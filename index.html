@@ -41,8 +41,8 @@
         <li>
           <a class="authentication-link" href="#">Вход</a>
           <form class="authentication" method="post" action="https://echo.htmlacademy.ru/">
-            <label class="visually-hidden" for="email-field" aria-label="Электронная почта"></label>
-            <input class="authentication-field" type="email" id="email-field" placeholder="Электронная почта">
+            <label class="visually-hidden" for="authentication-email-field" aria-label="Электронная почта"></label>
+            <input class="authentication-field" type="email" id="authentication-email-field" placeholder="Электронная почта">
 
             <label class="visually-hidden" for="password-field" aria-label="Пароль"></label>
             <input class="authentication-field" type="password" id="password-field" placeholder="Пароль">
@@ -202,5 +202,25 @@
         <p class="copyright-description">Сделано в <a class="copyright-link" href="#">HTML Academy</a> © 2017</p>
       </div>
     </footer>
+
+    <section class="modal contact-us">
+      <h2 class="visually-hidden">Форма обратной связи</h2>
+
+      <p>Мы обязательно вам ответим!</p>
+      <form class="contact-us-form" method="post" action="https://echo.htmlacademy.ru">
+        <label class="visually-hidden" for="name-field" aria-label="Имя"></label>
+        <input class="contact-us-field" type="text" id="name-field" placeholder="Как вас зовут?">
+
+        <label class="visually-hidden" for="contact-us-email-field" aria-label="Email"></label>
+        <input class="email-field" type="email" id="contact-us-email-field" placeholder="Ваша почта для ответа?">        
+
+        <label class="visually-hidden" for="form-message" aria-label="Текст обращения"></label>
+        <textarea class="form-message-field" id="form-message">Напишите что-нибудь...</textarea>
+
+        <button class="button contact-us-button" type="submit">Отправить</button>
+      </form>
+
+      <button class="modal-button close-button" type="button" aria-label="Закрыть окно обратной связи"></button>
+    </section>
   </body>
 </html>
