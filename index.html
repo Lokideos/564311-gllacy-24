@@ -37,8 +37,22 @@
         </form>
       </section>
 
-      <ul class="page-header-authorization">
-        <li><a class="authorization-link" href="#">Вход</a></li>
+      <ul class="page-header-authentication">
+        <li>
+          <a class="authentication-link" href="#">Вход</a>
+          <form class="authentication" method="post" action="https://echo.htmlacademy.ru/">
+            <label class="visually-hidden" for="email-field" aria-label="Электронная почта"></label>
+            <input class="authentication-field" type="email" id="email-field" placeholder="Электронная почта">
+
+            <label class="visually-hidden" for="password-field" aria-label="Пароль"></label>
+            <input class="authentication-field" type="password" id="password-field" placeholder="Пароль">
+
+            <a class="authentication-link" href="#">Забыли пароль?</a>
+            <a class="authentication-link" href="#">Новая регистрация</a>
+
+            <button class="button authentication-submit" type="submit">Войти</button>
+          </form>
+        </li>
       </ul>
       
       <ul class="cart-operations">
