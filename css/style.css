@@ -927,3 +927,48 @@ form.authentication .authentication-link:active {
   background-color: #eaeaea;
   box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);  
 }
+
+.pagination .pages-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.pages-list .page-link {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff; 
+}
+
+.pages-list .page-link:hover,
+.pages-list .page-link:focus {
+  background-color: #9db1a5;
+}
+
+.pages-list .page-link:active {
+  color: #323232;
+
+  background-color: #ffffff;
+}
+
+.page-link.selected,
+.page-link.selected:hover {
+  color: #323232;
+
+  background-color: #ffffff; 
+}
+
+.go-back.on-first-page {
+  opacity: 0.2;
+}
+
+.go-back.on-first-page:hover {
+  background-color: inherit;
+}
+
+.go-back.on-first-page:active {
+  color: inherit;
+}
