@@ -651,3 +651,67 @@ form.authentication .authentication-link:active {
 .copyright-description .copyright-link:active {
   color: #ffbc9e; 
 }
+
+.modal .contact-us {
+  background-color: #f8f7f4;
+}
+
+.contact-us .declaration {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #323232;
+}
+
+.contact-us-form .contact-us-field {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #323232;
+}
+
+.contact-us-form .contact-us-field::-webkit-input-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.contact-us-form .contact-us-field::-moz-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.contact-us-form .contact-us-field:-moz-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.contact-us-form .contact-us-field:-ms-input-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.contact-us-form .form-message-field {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.contact-us-form .form-message-field:focus {
+  color: #323232;
+}
