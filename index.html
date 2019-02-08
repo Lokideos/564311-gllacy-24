@@ -69,29 +69,31 @@
     <main>
       <section class="promos">
         <h2 class="visually-hidden">Лучшие предложения</h2>
-
-        <input class="slider-input" type="radio" name="promo-control" id="button-slider-1" checked>
-        <input class="slider-input" type="radio" name="promo-control" id="button-slider-2">
-        <input class="slider-input" type="radio" name="promo-control" id="button-slider-3">
+        
+        <ul class="promos-slider-control">
+          <li><button class="selected-slide slider-button" type="button" aria-label="Первый слайд"></button></li>
+          <li><button class="slider-button" type="button" aria-label="Первый слайд"></button></li>
+          <li><button class="slider-button" type="button" aria-label="Первый слайд"></button></li>
+        </ul>
 
         <ul class="promos-list">
           <li>
             <h3>Крем-брюле и пломбир с малиновым джемом</h3>
             <img class="promo-image" src="img/index/index_slider_1_ice-cream.png" alt="Крем-брюле и пломбир" width="1045" height="881">
 
-            <a class="promo-purchase-link" href="#">Давайте оба!</a>
+            <a class="button promo-purchase-link" href="#">Давайте оба!</a>
           </li>
           <li>
             <h3>Шоколадный пломбир и лимонный сорбет</h3>
             <img class="promo-image" src="img/index/index_slider_2_ice-cream.png" alt="Шоколадный пломбир и лимонный сорбет" width="1065" height="859">
 
-            <a class="promo-purchase-link" href="#">Давайте оба!</a>
+            <a class="button promo-purchase-link" href="#">Давайте оба!</a>
           </li>
           <li>
             <h3>Пломбир с помадкой и клубничный щербет</h3>
             <img class="promo-image" src="img/index/index_slider_3_ice-cream.png" alt="Пломбир с помадкой и клубничный щербет" width="1079" height="854">
 
-            <a class="promo-purchase-link" href="#">Давайте оба!</a>
+            <a class="button promo-purchase-link" href="#">Давайте оба!</a>
           </li>
         </ul>
       </section>
