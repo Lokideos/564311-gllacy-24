@@ -540,3 +540,35 @@ form.authentication .authentication-link:active {
   font-weight: 300;
   color: #999999;
 }
+
+.location {
+  background-color: #ffffff;
+}
+
+.location .address,
+.location .phone {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #323232;
+}
+
+.address .address-line {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #323232;
+}
+
+.phone .phone-line {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #323232;
+}
