@@ -572,3 +572,82 @@ form.authentication .authentication-link:active {
   font-weight: 700;
   color: #323232;
 }
+
+.page-footer {
+  background-color: #849d8f;
+}
+
+.social-networks {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.social-button {
+  opacity: 0.8;
+}
+
+.social-button:hover,
+.social-button:focus {
+  opacity: 1;
+}
+
+.social-button:active {
+  background-color: rgba(255, 255, 255, 0);
+  /* add images after overlay */
+}
+
+.additional-info {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.additional-info .info-link {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.additional-info .partners {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff; 
+}
+
+.additional-info .info-link:hover,
+.additional-info .info-link:focus,
+.additional-info .info-link:active {
+  color: #ffbc9e; 
+}
+
+.copyright-description {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 300;
+  color: #ffffff; 
+}
+
+.copyright-description .copyright-link {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 300;
+  color: #ffffff; 
+}
+
+.copyright-description .copyright-link:hover,
+.copyright-description .copyright-link:focus,
+.copyright-description .copyright-link:active {
+  color: #ffbc9e; 
+}
