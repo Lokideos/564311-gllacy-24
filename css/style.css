@@ -159,8 +159,7 @@ a {
 form.search {
   color: #323232;
 
-
-  background-color: #f8f7f4;
+  background-color: #f8f7f4;  
 }
 
 form.search .search-field {
@@ -169,6 +168,17 @@ form.search .search-field {
   line-height: 24px;
   font-weight: 300;
   color: #323232;
+
+  border: 1px solid #d3d3d2;
+}
+
+form.search .search-field:hover {
+  border: 2px solid #c7c6c5;
+}
+
+form.search .search-field:focus {
+  outline: none;
+  border: 2px solid #8fbdec;
 }
 
 form.search .search-field::-webkit-input-placeholder {
@@ -230,15 +240,26 @@ form.authentication {
   background-color: #f8f7f4;
 }
 
-form.authentication.authentication-field {
+form.authentication .authentication-field {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   color: #323232;
+
+  border: 1px solid #d3d3d2;
 }
 
-form.authentication.authentication-field::-webkit-input-placeholder {
+form.authentication .authentication-field:hover {
+  border: 2px solid #c7c6c5;
+}
+
+form.authentication .authentication-field:focus {
+  outline: none;
+  border: 2px solid #8fbdec;
+}
+
+form.authentication .authentication-field::-webkit-input-placeholder {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -246,7 +267,7 @@ form.authentication.authentication-field::-webkit-input-placeholder {
   color: #999999;
 }
 
-form.authentication.authentication-field::-moz-placeholder {
+form.authentication .authentication-field::-moz-placeholder {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -254,7 +275,7 @@ form.authentication.authentication-field::-moz-placeholder {
   color: #999999;
 }
 
-form.authentication.authentication-field:-moz-placeholder {
+form.authentication .authentication-field:-moz-placeholder {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -262,7 +283,7 @@ form.authentication.authentication-field:-moz-placeholder {
   color: #999999;
 }
 
-form.authentication.authentication-field:-ms-input-placeholder {
+form.authentication .authentication-field:-ms-input-placeholder {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -509,6 +530,19 @@ form.authentication .authentication-link:active {
   color: #5a5a5a;
 }
 
+.subscription-form .subscription-email-field {
+  border: 1px solid #d3d3d2;
+}
+
+.subscription-form .subscription-email-field:hover {
+  border: 2px solid #c7c6c5;
+}
+
+.subscription-form .subscription-email-field:focus {
+  outline: none;
+  border: 2px solid #8fbdec;
+}
+
 .subscription-form .subscription-email-field::-webkit-input-placeholder {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -670,6 +704,19 @@ form.authentication .authentication-link:active {
   line-height: 24px;
   font-weight: 300;
   color: #323232;
+
+  border: 1px solid #d3d3d2;;
+}
+
+.contact-us-form .contact-us-field:hover,
+.contact-us-form .form-message-field:hover {
+  border: 2px solid #c7c6c5;
+}
+
+.contact-us-form .contact-us-field:focus,
+.contact-us-form .form-message-field:focus {
+  outline: none;
+  border: 2px solid #8fbdec;
 }
 
 .contact-us-form .contact-us-field::-webkit-input-placeholder {
@@ -710,6 +757,8 @@ form.authentication .authentication-link:active {
   line-height: 24px;
   font-weight: 300;
   color: #999999;
+
+  border: 1px solid #d3d3d2;
 }
 
 .contact-us-form .form-message-field:focus {
