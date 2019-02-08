@@ -275,6 +275,12 @@ form.authentication .authentication-link {
   color: #323232; 
 }
 
+form.authentication .authentication-link:hover,
+form.authentication .authentication-link:focus,
+form.authentication .authentication-link:active {
+  color: #e84d37;
+}
+
 .phone-to-call {
   margin: 0;
   
