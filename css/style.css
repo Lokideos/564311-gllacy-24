@@ -391,6 +391,16 @@ form.authentication .authentication-link:active {
   color: #ffffff;
 }
 
+.breadcrumb-link:hover,
+.breadcrumb-link:focus,
+.breadcrumb-link:active {
+  color: #ffbc9e;
+}
+
+.breadcrumb-link.selected:hover {
+  color: #ffffff; 
+}
+
 .promos-slider-control {
   margin: 0;
   padding: 0;
