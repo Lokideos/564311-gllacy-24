@@ -313,3 +313,34 @@ form.authentication .authentication-link {
   font-weight: 700;
   color: #ffffff;
 }
+
+.feature-item {
+  background-color: #849d8f;  
+}
+
+.feature-item .title {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.feature-item .title {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
+.raspbery-promo {
+  background-image: url("../img/index/index_feature_raspberry.jpg");
+  background-repeat: no-repeat;
+}
+
+.chocolate-promo {
+  background-image: url("../img/index/index_feature_chocolate.jpg");
+  background-repeat: no-repeat; 
+}
