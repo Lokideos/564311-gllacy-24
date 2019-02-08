@@ -438,6 +438,105 @@ form.authentication .authentication-link:active {
   line-height: 45px;
   font-weight: 700;
   text-shadow: 0px 1px 3px rgba(49, 50, 53, 0.5);
-
   color: #ffffff; 
+}
+
+.shop-info {
+  background-color: #ebddbd;
+  background-image: url("../img/index/features_background_template.jpg");
+  background-repeat: repeat;
+}
+
+.shop-info .main-info {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #323232;
+}
+
+.shop-features {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.shop-features .feature {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #323232;
+}
+
+.ice-cream-blog {
+  background-color: #ffffff;
+  background-image: url("../img/index/serving_article_background.jpg");
+  background-repeat: no-repeat;
+}
+
+.ice-cream-blog .title {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #323232;
+}
+
+.ice-cream-blog .article-link {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #323232; 
+}
+
+.subscription {
+  background-color: #f8f7f4;
+  background-image: url("../img/index/contact_us_background.jpg");
+}
+
+.subscription-content {
+  background-color: #f8f7f4;
+}
+
+.subscription-decription {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #5a5a5a;
+}
+
+.subscription-form .subscription-email-field::-webkit-input-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.subscription-form .subscription-email-field::-moz-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.subscription-form .subscription-email-field:-moz-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.subscription-form .subscription-email-field:-ms-input-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
 }
