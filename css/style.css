@@ -397,3 +397,44 @@ form.authentication .authentication-link:active {
   background-image: url("../img/index/index_feature_chocolate.jpg");
   background-repeat: no-repeat; 
 }
+
+.goods-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.goods-title > a {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.goods-title > a:hover,
+.goods-title > a:focus,
+.goods-title > a:active {
+  color: #ffbc9e;
+}
+
+.goods-item .price {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  text-shadow: 0px 1px 3px rgba(49, 50, 53, 0.5);
+
+  color: #ffffff;
+}
+
+.price .weight-metric {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+  text-shadow: 0px 1px 3px rgba(49, 50, 53, 0.5);
+
+  color: #ffffff; 
+}
