@@ -22,7 +22,7 @@
 body {
   margin: 0;
 
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0;
@@ -39,4 +39,206 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.navigation-menu a {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #323232;
+
+  background-color: #f7f6f3;
+}
+
+.menu-link::active {
+  color: #323232;
+
+  background-color: #f7f6f3;
+  box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);
+}
+
+.navigation-menu .catalog-categories{
+  background-color: #f8f7f4;
+}
+
+.catalog-categories .categoires-link {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
+  color: #323232;
+}
+
+.catalog-categories .categoires-link:hover,
+.catalog-categories .categoires-link:focus {
+  background-color: #fbded7; 
+}
+
+.catalog-categories .categoires-link:active {
+  background-color: #f6b5a5;
+}
+
+.new-goods.categoires-link {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #323232;
+}
+
+.header-button {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;  
+  font-weight: 400;
+  color: #ffffff;
+
+  background-color: #9db1a5;
+}
+
+form.search {
+  color: #323232;
+
+
+  background-color: #f8f7f4;
+}
+
+form.search .search-field {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #323232;
+}
+
+form.search .search-field::-webkit-input-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+form.search .search-field::-moz-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+form.search .search-field:-moz-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+form.search .search-field:-ms-input-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.header-button:hover,
+.header-button:focus {
+  color: #323232;
+
+  background-color: #f8f7f4;
+}
+
+form.authentication {
+  color: #323232;
+
+  background-color: #f8f7f4;
+}
+
+form.authentication.authentication-field {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #323232;
+}
+
+form.authentication.authentication-field::-webkit-input-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+form.authentication.authentication-field::-moz-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+form.authentication.authentication-field:-moz-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+form.authentication.authentication-field:-ms-input-placeholder {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #999999;
+}
+
+form.authentication .authentication-link {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #323232; 
+}
+
+.button {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fefefe;
+
+  background-color: #e94f38;
+  background-image: -moz-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 0.004);
+  border: 0;
+}
+
+.phone-to-call {
+  margin: 0;
+  
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;  
+  color: #ffffff;
+}
+
+.phone-to-call .number {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;  
+  color: #ffffff;
 }
