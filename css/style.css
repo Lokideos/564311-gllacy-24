@@ -261,6 +261,10 @@ form.search .search-field:-ms-input-placeholder {
   color: #323232;
 }
 
+.cart-goods .description {
+  margin: 0;
+}
+
 .cart-goods .position-price {
   color: #999999;
 }
@@ -359,6 +363,31 @@ form.authentication .authentication-link:active {
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;  
+  color: #ffffff;
+}
+
+.catalog-page .page-title {
+  margin: 0;
+
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+
+  list-style: none; 
+}
+
+.breadcrumb-link {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
   color: #ffffff;
 }
 
