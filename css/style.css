@@ -686,7 +686,7 @@ form.authentication .authentication-link:active {
   color: #ffbc9e; 
 }
 
-.modal .contact-us {
+.modal.contact-us {
   background-color: #f8f7f4;
 }
 
@@ -705,7 +705,7 @@ form.authentication .authentication-link:active {
   font-weight: 300;
   color: #323232;
 
-  border: 1px solid #d3d3d2;;
+  border: 1px solid #d3d3d2;
 }
 
 .contact-us-form .contact-us-field:hover,
