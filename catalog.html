@@ -123,52 +123,60 @@
         <form class="filters-form" method="get" action="https://echo.htmlacademy.ru">
           <fieldset class="sorting-filters">
             <legend>Соритровка:</legend>
-            
-            <label class="visually-hidden soritng-filters" for="sorting-filters-field" aria-label="Алгоритм сортировки"></label>
-            <select class="soritng-filters-select" id="sorting-filters-field" name="sorting-filters">
-              <option value="popularity">по популярности</option>
-              <option value="cheap-first">сначала недорогие</option>
-              <option value="expensive-first">сначала дорогие</option>
-              <option value="fat">по жирности</option>
-            </select>
+
+            <div class="filter-background">
+              <label class="visually-hidden soritng-filters" for="sorting-filters-field" aria-label="Алгоритм сортировки"></label>
+              <select class="soritng-filters-select" id="sorting-filters-field" name="sorting-filters">
+                <option value="popularity">по популярности</option>
+                <option value="cheap-first">сначала недорогие</option>
+                <option value="expensive-first">сначала дорогие</option>
+                <option value="fat">по жирности</option>
+              </select>
+            </div>
           </fieldset>
 
           <fieldset class="price-filters">
             <legend>Цена:</legend>
             
-            <p>100 руб. - 500 руб.</p>
-            <div class="price-placeholder"></div>
+            <div class="filter-background">
+              <p>100 руб. - 500 руб.</p>
+              <div class="price-placeholder"></div>
+            </div>
           </fieldset>
           
           <fieldset class="fats-filters">
             <legend>Жирность:</legend>
 
-            <label>
-              <input class="fats-field-radio-button" type="radio" name="fats-control" id="fats-control-1" value="0%">
-              0%
-            </label>
-            <label>
-              <input class="fats-field-radio-button" type="radio" name="fats-control" id="fats-control-2" value="< 10%" checked>
-              до 10%
-            </label>
-            <label>
-              <input class="fats-field-radio-button" type="radio" name="fats-control" id="fats-control-3" value="< 30%">
-              до 30%
-            </label>
-            <label>
-              <input class="fats-field-radio-button" type="radio" name="fats-control" id="fats-control-4" value="< 30%">
-              выше 30%
-            </label>
+            <div class="filter-background">
+              <label>
+                <input class="fats-field-radio-button" type="radio" name="fats-control" id="fats-control-1" value="0%">
+                0%
+              </label>
+              <label>
+                <input class="fats-field-radio-button" type="radio" name="fats-control" id="fats-control-2" value="< 10%" checked>
+                до 10%
+              </label>
+              <label>
+                <input class="fats-field-radio-button" type="radio" name="fats-control" id="fats-control-3" value="< 30%">
+                до 30%
+              </label>
+              <label>
+                <input class="fats-field-radio-button" type="radio" name="fats-control" id="fats-control-4" value="< 30%">
+                выше 30%
+              </label>
+            </div>
           </fieldset>
 
           <fieldset class="ingredient-filters">
             <legend>Наполнители:</legend>
-
-            <label><input class="ingredient-checkbox" type="checkbox" name="chocolate" checked>шоколадные</label>
-            <label><input class="ingredient-checkbox" type="checkbox" name="sugar-powder" checked>сахарные присыпки</label>
-            <label><input class="ingredient-checkbox" type="checkbox" name="fruits">фрукты</label>
-            <label><input class="ingredient-checkbox" type="checkbox" name="syrups">сиропы</label>
-            <label><input class="ingredient-checkbox" type="checkbox" name="jams">джемы</label>
+            
+            <div class="filter-background">
+              <label><input class="ingredient-checkbox" type="checkbox" name="chocolate" checked>шоколадные</label>
+              <label><input class="ingredient-checkbox" type="checkbox" name="sugar-powder" checked>сахарные присыпки</label>
+              <label><input class="ingredient-checkbox" type="checkbox" name="fruits">фрукты</label>
+              <label><input class="ingredient-checkbox" type="checkbox" name="syrups">сиропы</label>
+              <label><input class="ingredient-checkbox" type="checkbox" name="jams">джемы</label>
+            </div>
           </fieldset>
 
           <button class="filters-button" type="submit">Применить</button>

@@ -832,3 +832,88 @@ form.authentication .authentication-link:active {
 .contact-us-form .form-message-field:focus {
   color: #323232;
 }
+
+.sorting-filters legend {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.price-filters {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff; 
+}
+
+.price-filters p {
+  margin: 0;
+}
+
+.fats-filters legend {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff; 
+}
+
+.fats-filters label {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff; 
+}
+
+.ingredient-filters legend {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff; 
+}
+
+.ingredient-filters label {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff; 
+}
+
+.filter-background {
+  background-color: rgba(168, 185, 175, 0.2);  
+}
+
+.filters-form .filters-button {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  
+  background-color: #a6b7ae;
+  border: 2px solid #ffffff;
+}
+
+.filters-form .filters-button:hover,
+.filters-form .filters-button:focus {
+  color: #323232;
+  
+  border: 2px solid #fbfcfb;
+  background-color: #fbfcfb;
+}
+
+.filters-form .filters-button:active {
+  color: #323232;  
+  
+  border: 2px solid #eaeaea;
+  background-color: #eaeaea;
+  box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);  
+}
