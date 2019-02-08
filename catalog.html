@@ -5,15 +5,16 @@
     <title>HTML Academy: Глейси</title>
     <meta name="keywords" content="Глэйси,Мороженное,Пломбир,Крем-рюле,Магазин">
     <meta name="description" content="Если вас терзает неутолимая жажда отведать вкуснейшего мороженного, то добро пожаловать!">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="catalog-page">
     <header class="page-header">
       <nav class="page-header-navigation">
-        <a class="header-logo-link" href="index.html"><img class="logo-image" src="img/shared/logo.svg" alt="Glaccy Shop Logo" width="154" height="64"></a>
+        <a class="header-logo-link"><img class="logo-image" src="img/shared/logo.svg" alt="Glaccy Shop Logo" width="154" height="64"></a>
         <ul class="navigation-menu">
           <li>
-            <a class="selected" href="catalog.html">Каталог</a>
-
+            <a class="menu-link selected" href="catalog.html">Каталог</a>
             <ul class="catalog-categories">
               <li><a class="new-goods categoires-link" href="#">Новинки</a></li>
               <li><a class="categoires-link selected">Сливочное</a></li>
@@ -22,15 +23,15 @@
               <li><a class="categoires-link" href="#">Мелорин</a></li>
             </ul>
           </li>
-          <li><a href="#">Доставка и оплата</a></li>
-          <li><a href="#">О Компании</a></li>
+          <li><a class="menu-link" href="#">Доставка и оплата</a></li>
+          <li><a class="menu-link" href="#">О Компании</a></li>
         </ul>
       </nav>
 
       <section class="search-section">
         <h2 class="visually-hidden">Поиск по сайту</h2>
 
-        <a class="search-button" href="#" aria-label="Поиск"></a>
+        <a class="header-button search-button" href="#" aria-label="Поиск"></a>
         <form class="search" method="get" action="https://echo.htmlacademy.ru/">        
           <label class="visually-hidden" for="search-field">Строка поиска</label>
           <input class="search-field" type="search" name="search" id="search-field" placeholder="Что ищем?">
@@ -40,7 +41,7 @@
 
       <ul class="page-header-authentication">
         <li>
-          <a class="authentication-link" href="#">Вход</a>
+          <a class="header-button authentication-link" href="#">Вход</a>
           <form class="authentication" method="post" action="https://echo.htmlacademy.ru/">
             <label class="visually-hidden" for="authentication-email-field" aria-label="Электронная почта"></label>
             <input class="authentication-field" type="email" id="authentication-email-field" placeholder="Электронная почта">
@@ -57,7 +58,7 @@
       </ul>
       
       <ul class="cart-operations">
-        <li><a class="cart filled-cart" href="#" aria-label="Корзина покупок">2 товара</a></li>
+        <li><a class="header-button cart filled-cart" href="#" aria-label="Корзина покупок">2 товара</a></li>
         <li class="cart-goods">
           <table class="goods-table">
             <tr class="visually-hidden">
@@ -98,7 +99,7 @@
             </tr>
           </table>
 
-          <a class="buy-link" href="#">Оформить заказ</a>
+          <a class="button buy-link" href="#">Оформить заказ</a>
         </li>
       </ul>
 

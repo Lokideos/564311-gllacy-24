@@ -96,11 +96,19 @@ a {
   background-color: #f7f6f3;
 }
 
-.menu-link::active {
+.menu-link:active {
   color: #323232;
 
   background-color: #f7f6f3;
   box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);
+}
+
+.menu-link.selected,
+.menu-link.selected:hover,
+.menu-link.selected:active {
+  color: #ffffff;
+
+  background-color: #d07058;
 }
 
 .navigation-menu {
@@ -136,6 +144,13 @@ a {
 
 .catalog-categories .categoires-link:active {
   background-color: #f6b5a5;
+}
+
+.categoires-link.selected,
+.categoires-link.selected:hover {
+  color: #ffffff;
+
+  background-color: #d07058;
 }
 
 .new-goods.categoires-link {
@@ -232,6 +247,30 @@ form.search .search-field:-ms-input-placeholder {
   padding: 0;
 
   list-style: none;
+}
+
+.cart-operations .cart-goods {
+  background-color: #f8f7f4;
+}
+
+.cart-goods td {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 300;
+  color: #323232;
+}
+
+.cart-goods .position-price {
+  color: #999999;
+}
+
+.cart-goods .cart-price {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #323232;
 }
 
 form.authentication {
