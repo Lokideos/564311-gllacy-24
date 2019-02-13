@@ -722,14 +722,11 @@ form.authentication .authentication-link:active {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .copyright-description .copyright-link {
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 400;
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .copyright-description .copyright-link:hover,
