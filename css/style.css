@@ -460,19 +460,22 @@ form.authentication .authentication-link:active {
 }
 
 .feature-item .title {
+  margin: 0;
+  
   font-size: 35px;
   line-height: 41px;
   font-weight: 700;
   color: #ffffff;
 }
 
-.feature-item .title {
+.feature-description {
+  margin: 0;
+  
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
   color: #ffffff;
 }
-
 
 .raspbery-promo {
   background-image: url("../img/index/index_feature_raspberry.jpg");
