@@ -578,6 +578,8 @@ form.authentication .authentication-link:active {
 .subscription {
   background-color: #f8f7f4;
   background-image: url("../img/index/contact_us_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .subscription-content {
