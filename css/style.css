@@ -461,7 +461,7 @@ form.authentication .authentication-link:active {
 
 .feature-item .title {
   margin: 0;
-  
+
   font-size: 35px;
   line-height: 41px;
   font-weight: 700;
@@ -492,6 +492,10 @@ form.authentication .authentication-link:active {
   padding: 0;
 
   list-style: none;
+}
+
+.goods-title {
+  margin: 0;
 }
 
 .goods-title > a {
