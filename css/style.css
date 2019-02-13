@@ -2,7 +2,7 @@
   font-family: "Roboto";
   src: url("../fonts/roboto.woff2") format("woff2"),
        url("../fonts/roboto.woff") format("woff");
-  font-weight: 300;
+  font-weight: 400;
 }
 
 @font-face {
@@ -16,7 +16,7 @@
   font-family: "Roboto";
   src: url("../fonts/robotomedium.woff2") format("woff2"),
        url("../fonts/robotomedium.woff") format("woff");
-  font-weight: 400;
+  font-weight: 500;
 }
 
 body {
@@ -26,7 +26,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0;
-  font-weight: 400;
+  font-weight: 500;
   color: #ffffff;
 
   background-color: #849d8f;
@@ -42,7 +42,6 @@ a {
 }
 
 .navigation-menu a {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 700;
@@ -50,7 +49,6 @@ a {
 }
 
 .button {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   text-align: center;
@@ -130,10 +128,9 @@ a {
 }
 
 .catalog-categories .categoires-link {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
-  font-weight: 300;
+  font-weight: 400;
   color: #323232;
 }
 
@@ -154,7 +151,6 @@ a {
 }
 
 .new-goods.categoires-link {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
   font-weight: 700;
@@ -162,10 +158,9 @@ a {
 }
 
 .header-button {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;  
-  font-weight: 400;
+  font-weight: 500;
   color: #ffffff;
 
   background-color: #9db1a5;
@@ -178,10 +173,9 @@ form.search {
 }
 
 form.search .search-field {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #323232;
 
   border: 1px solid #d3d3d2;
@@ -197,34 +191,30 @@ form.search .search-field:focus {
 }
 
 form.search .search-field::-webkit-input-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 form.search .search-field::-moz-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 form.search .search-field:-moz-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 form.search .search-field:-ms-input-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
@@ -254,10 +244,9 @@ form.search .search-field:-ms-input-placeholder {
 }
 
 .cart-goods td {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 16px;
-  font-weight: 300;
+  font-weight: 400;
   color: #323232;
 }
 
@@ -270,7 +259,6 @@ form.search .search-field:-ms-input-placeholder {
 }
 
 .cart-goods .cart-price {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 18px;
   font-weight: 700;
@@ -284,10 +272,9 @@ form.authentication {
 }
 
 form.authentication .authentication-field {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #323232;
 
   border: 1px solid #d3d3d2;
@@ -303,42 +290,37 @@ form.authentication .authentication-field:focus {
 }
 
 form.authentication .authentication-field::-webkit-input-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 form.authentication .authentication-field::-moz-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 form.authentication .authentication-field:-moz-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 form.authentication .authentication-field:-ms-input-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 form.authentication .authentication-link {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #323232; 
 }
 
@@ -351,7 +333,6 @@ form.authentication .authentication-link:active {
 .phone-to-call {
   margin: 0;
   
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
   font-weight: 700;  
@@ -359,7 +340,6 @@ form.authentication .authentication-link:active {
 }
 
 .phone-to-call .number {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;  
@@ -369,7 +349,6 @@ form.authentication .authentication-link:active {
 .catalog-page .page-title {
   margin: 0;
 
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 35px;
   line-height: 41px;
   font-weight: 700;
@@ -384,10 +363,9 @@ form.authentication .authentication-link:active {
 }
 
 .breadcrumb-link {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
-  font-weight: 300;
+  font-weight: 400;
   color: #ffffff;
 }
 
@@ -439,7 +417,6 @@ form.authentication .authentication-link:active {
   margin: 0;
   padding: 0;
 
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 60px;
   line-height: 60.35px;
   font-weight: 700;
@@ -447,6 +424,16 @@ form.authentication .authentication-link:active {
   color: #ffffff;
 
   list-style: none;
+}
+
+.promos-list h3 {
+  margin: 0;
+
+  font-size: 60px;
+  line-height: 60.35px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
 }
 
 .promos-list li:nth-of-type(1) {
@@ -462,7 +449,6 @@ form.authentication .authentication-link:active {
 }
 
 .promo-purchase-link {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 32px;
   line-height: 44px;
   font-weight: 700;
@@ -474,7 +460,6 @@ form.authentication .authentication-link:active {
 }
 
 .feature-item .title {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 35px;
   line-height: 41px;
   font-weight: 700;
@@ -482,7 +467,6 @@ form.authentication .authentication-link:active {
 }
 
 .feature-item .title {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
@@ -508,10 +492,9 @@ form.authentication .authentication-link:active {
 }
 
 .goods-title > a {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 500;
   color: #ffffff;
 }
 
@@ -522,7 +505,6 @@ form.authentication .authentication-link:active {
 }
 
 .goods-item .price {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 45px;
   line-height: 45px;
   font-weight: 700;
@@ -532,7 +514,6 @@ form.authentication .authentication-link:active {
 }
 
 .price .weight-metric {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 30px;
   line-height: 45px;
   font-weight: 700;
@@ -547,10 +528,9 @@ form.authentication .authentication-link:active {
 }
 
 .shop-info .main-info {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 24px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 500;
   color: #323232;
 }
 
@@ -562,10 +542,9 @@ form.authentication .authentication-link:active {
 }
 
 .shop-features .feature {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
-  font-weight: 300;
+  font-weight: 400;
   color: #323232;
 }
 
@@ -576,15 +555,13 @@ form.authentication .authentication-link:active {
 }
 
 .ice-cream-blog .title {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 500;
   color: #323232;
 }
 
 .ice-cream-blog .article-link {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
@@ -601,10 +578,9 @@ form.authentication .authentication-link:active {
 }
 
 .subscription-decription {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
-  font-weight: 300;
+  font-weight: 400;
   color: #5a5a5a;
 }
 
@@ -622,34 +598,30 @@ form.authentication .authentication-link:active {
 }
 
 .subscription-form .subscription-email-field::-webkit-input-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 .subscription-form .subscription-email-field::-moz-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 .subscription-form .subscription-email-field:-moz-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 .subscription-form .subscription-email-field:-ms-input-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
@@ -662,15 +634,13 @@ form.authentication .authentication-link:active {
   margin: 0;
   padding: 0;
 
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  font-weight: 300;
+  font-weight: 400;
   color: #323232;
 }
 
 .address .address-line {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -678,7 +648,6 @@ form.authentication .authentication-link:active {
 }
 
 .phone .phone-line {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
@@ -718,15 +687,13 @@ form.authentication .authentication-link:active {
 }
 
 .additional-info .info-link {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  font-weight: 300;
+  font-weight: 400;
   color: #ffffff;
 }
 
 .additional-info .partners {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   font-weight: 700;
@@ -743,18 +710,16 @@ form.authentication .authentication-link:active {
   margin: 0;
   padding: 0;
 
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 18px;
-  font-weight: 300;
+  font-weight: 400;
   color: #ffffff; 
 }
 
 .copyright-description .copyright-link {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 18px;
-  font-weight: 300;
+  font-weight: 400;
   color: #ffffff; 
 }
 
@@ -769,18 +734,16 @@ form.authentication .authentication-link:active {
 }
 
 .contact-us .declaration {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 24px;
   line-height: 28px;
-  font-weight: 400;
+  font-weight: 500;
   color: #323232;
 }
 
 .contact-us-form .contact-us-field {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #323232;
 
   border: 1px solid #d3d3d2;
@@ -798,42 +761,37 @@ form.authentication .authentication-link:active {
 }
 
 .contact-us-form .contact-us-field::-webkit-input-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 .contact-us-form .contact-us-field::-moz-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 .contact-us-form .contact-us-field:-moz-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 .contact-us-form .contact-us-field:-ms-input-placeholder {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 }
 
 .contact-us-form .form-message-field {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999999;
 
   border: 1px solid #d3d3d2;
@@ -844,18 +802,16 @@ form.authentication .authentication-link:active {
 }
 
 .sorting-filters legend {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: #ffffff;
 }
 
 .price-filters {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: #ffffff; 
 }
 
@@ -864,36 +820,32 @@ form.authentication .authentication-link:active {
 }
 
 .fats-filters legend {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: #ffffff;
 }
 
 .fats-filters label {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   color: #ffffff; 
 
   opacity: 0.8;
 }
 
 .ingredient-filters legend {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: #ffffff; 
 }
 
 .ingredient-filters label {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   color: #ffffff; 
 
   opacity: 0.8;
@@ -916,10 +868,9 @@ form.authentication .authentication-link:active {
 }
 
 .filters-form .filters-button {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
   vertical-align: middle;
   color: #ffffff;
@@ -952,10 +903,9 @@ form.authentication .authentication-link:active {
 }
 
 .pages-list .page-link {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   color: #ffffff; 
 }
 
