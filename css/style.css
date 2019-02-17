@@ -1058,12 +1058,13 @@ form.authentication .authentication-link:active {
 }
 
 .goods-list {
-  display: flex;  
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .goods-list > li {
   width: 267px;
-  margin-right: 30px; 
+  margin-right: 26px; 
 }
 
 .goods-list > li:nth-child(4n) {
@@ -1127,4 +1128,28 @@ form.authentication .authentication-link:active {
 .copyright-container {
   width: 267px;
   margin-left: auto;
+}
+
+.catalog-top-row {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 30px;
+}
+
+.catalog-top-row .breadcrumbs {
+  order: -1;
+}
+
+.filters {
+  width: 880px;
+  margin-bottom: 35px;
+}
+
+.catalog-page .goods-list {
+  margin-bottom: 85px;
+}
+
+.catalog-page .page-footer {
+  margin-top: 25px;
 }
