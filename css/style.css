@@ -994,3 +994,46 @@ form.authentication .authentication-link:active {
 .go-back.on-first-page:active {
   color: inherit;
 }
+
+.centring-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 27px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-image {
+  width: 154px;
+  height: 64px;
+}
+
+.page-header-navigation {
+  display: flex;
+
+  width: 560px;
+}
+
+.navigation-menu {
+  display: flex;
+}
+
+.header-right-column {
+  width: 267px;
+}
+
+.promos-list-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.promos-list-item > h3 {
+  order: 1;
+}
+
+.promos-list-item .promo-purchase-link {
+  order: 2;
+}
