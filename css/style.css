@@ -107,6 +107,10 @@ input[type="radio"].visually-hidden {
   box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
 }
 
+.menu-link {
+  text-decoration: underline;
+}
+
 .menu-link:hover,
 .menu-link:focus {
   color: #323232;
@@ -387,6 +391,12 @@ form.authentication .authentication-link:active {
   line-height: 16px;
   font-weight: 400;
   color: #ffffff;
+
+  text-decoration: underline;
+}
+
+.breadcrumb-link.selected {
+  text-decoration: none;
 }
 
 .breadcrumb-link:hover,
@@ -523,6 +533,8 @@ form.authentication .authentication-link:active {
   line-height: 22px;
   font-weight: 500;
   color: #ffffff;
+
+  text-decoration: underline;
 }
 
 .goods-title > a:hover,
@@ -598,7 +610,9 @@ form.authentication .authentication-link:active {
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
-  color: #323232; 
+  color: #323232;
+
+  text-decoration: underline;
 }
 
 .subscription {
@@ -728,6 +742,8 @@ form.authentication .authentication-link:active {
   line-height: 18px;
   font-weight: 400;
   color: #ffffff;
+
+  text-decoration: underline;
 }
 
 .additional-info .partners {
@@ -755,6 +771,8 @@ form.authentication .authentication-link:active {
 
 .copyright-description .copyright-link {
   color: #ffffff;
+
+  text-decoration: underline;
 }
 
 .copyright-description .copyright-link:hover,
