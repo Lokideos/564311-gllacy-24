@@ -1090,3 +1090,26 @@ form.authentication .authentication-link:active {
 .subscription {
   width: 560px;
 }
+
+.location {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.page-footer {
+  display: flex;
+}
+
+.social-networks {
+  width: 267px;
+  margin-right: 105px;
+}
+
+.additional-info {
+  width: 330px;
+}
+
+.copyright-container {
+  width: 267px;
+  margin-left: auto;
+}
