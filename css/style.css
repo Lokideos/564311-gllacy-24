@@ -996,7 +996,7 @@ form.authentication .authentication-link:active {
 }
 
 .centring-container {
-  width: 1200px;
+  width: 1146px;
   margin: 0 auto;
   padding: 0 27px;
 }
@@ -1036,4 +1036,57 @@ form.authentication .authentication-link:active {
 
 .promos-list-item .promo-purchase-link {
   order: 2;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-item {
+  width: 560px;
+}
+
+.goods-list {
+  display: flex;  
+}
+
+.goods-list > li {
+  width: 267px;
+  margin-right: 30px; 
+}
+
+.goods-list > li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.goods-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.goods-item .good-image {
+  order: -1;
+}
+
+.shop-features {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shop-features .feature {
+  width: 510px;
+}
+
+.index-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ice-cream-blog {
+  width: 560px;
+}
+
+.subscription {
+  width: 560px;
 }
