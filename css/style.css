@@ -346,6 +346,8 @@ form.authentication .authentication-link {
   line-height: 24px;
   font-weight: 400;
   color: #323232; 
+
+  text-decoration: underline;
 }
 
 form.authentication .authentication-link:hover,
