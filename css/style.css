@@ -1025,6 +1025,10 @@ form.authentication .authentication-link:active {
   width: 267px;
 }
 
+.promos {
+  margin-bottom: 40px;
+}
+
 .promos-list-item {
   display: flex;
   flex-direction: column;
@@ -1041,10 +1045,16 @@ form.authentication .authentication-link:active {
 .features {
   display: flex;
   justify-content: space-between;
+
+  margin-bottom: 40px;
 }
 
 .feature-item {
   width: 560px;
+}
+
+.popular-goods {
+  margin-bottom: 40px;
 }
 
 .goods-list {
@@ -1068,6 +1078,9 @@ form.authentication .authentication-link:active {
 .goods-item .good-image {
   order: -1;
 }
+.shop-info {
+  margin-bottom: 40px;
+}
 
 .shop-features {
   display: flex;
@@ -1081,6 +1094,8 @@ form.authentication .authentication-link:active {
 .index-columns {
   display: flex;
   justify-content: space-between;
+
+  margin-bottom: 40px;
 }
 
 .ice-cream-blog {
