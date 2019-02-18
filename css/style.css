@@ -1117,20 +1117,19 @@ form.authentication .authentication-link:active {
 
 .page-footer {
   display: flex;
+  justify-content: space-between;
 }
 
 .social-networks {
-  width: 267px;
-  margin-right: 105px;
+  width: 267px;  
 }
 
 .additional-info {
-  width: 330px;
+  width: 352px;
 }
 
 .copyright-container {
   width: 267px;
-  margin-left: auto;
 }
 
 .catalog-top-row {
