@@ -108,7 +108,7 @@ input[type="radio"].visually-hidden {
 }
 
 .menu-link {
-  text-decoration: underline;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .menu-link:hover,
@@ -347,13 +347,15 @@ form.authentication .authentication-link {
   font-weight: 400;
   color: #323232; 
 
-  text-decoration: underline;
+  border-bottom: 1px solid rgba(178, 178, 178, 0.3);
 }
 
 form.authentication .authentication-link:hover,
 form.authentication .authentication-link:focus,
 form.authentication .authentication-link:active {
   color: #e84d37;
+
+  border-bottom: 1px solid rgba(249, 205, 196, 0.3);
 }
 
 .phone-to-call {
@@ -394,17 +396,19 @@ form.authentication .authentication-link:active {
   font-weight: 400;
   color: #ffffff;
 
-  text-decoration: underline;
+  border-bottom: 1px solid rgba(169, 187, 177, 0.3);
 }
 
 .breadcrumb-link.selected {
-  text-decoration: none;
+  border-bottom: none;
 }
 
-.breadcrumb-link:hover,
+.breadcrumb-link:hover:not(.selected),
 .breadcrumb-link:focus,
 .breadcrumb-link:active {
   color: #ffbc9e;
+
+  border-bottom: 1px solid rgba(167, 162, 148, 0.3);
 }
 
 .breadcrumb-link.selected:hover {
@@ -536,13 +540,15 @@ form.authentication .authentication-link:active {
   font-weight: 500;
   color: #ffffff;
 
-  text-decoration: underline;
+  border-bottom: 1px solid rgba(169, 187, 177, 0.3);
 }
 
 .goods-title > a:hover,
 .goods-title > a:focus,
 .goods-title > a:active {
   color: #ffbc9e;
+
+  border-bottom: 1px solid rgba(167, 162, 148, 0.3);
 }
 
 .goods-item .price {
@@ -745,7 +751,7 @@ form.authentication .authentication-link:active {
   font-weight: 400;
   color: #ffffff;
 
-  text-decoration: underline;
+  border-bottom: 1px solid rgba(169, 187, 177, 0.3);
 }
 
 .additional-info .partners {
@@ -759,6 +765,8 @@ form.authentication .authentication-link:active {
 .additional-info .info-link:focus,
 .additional-info .info-link:active {
   color: #ffbc9e; 
+
+  border-bottom: 1px solid rgba(167, 162, 148, 0.3);
 }
 
 .copyright-description {
@@ -774,13 +782,15 @@ form.authentication .authentication-link:active {
 .copyright-description .copyright-link {
   color: #ffffff;
 
-  text-decoration: underline;
+  border-bottom: 1px solid rgba(169, 187, 177, 0.3);
 }
 
 .copyright-description .copyright-link:hover,
 .copyright-description .copyright-link:focus,
 .copyright-description .copyright-link:active {
   color: #ffbc9e; 
+
+  border-bottom: 1px solid rgba(167, 162, 148, 0.3);
 }
 
 .modal.contact-us {
