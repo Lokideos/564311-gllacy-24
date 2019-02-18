@@ -8,68 +8,66 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body class="main-page">
-    <div class="centring-container">
-      <header class="page-header">
-        <nav class="page-header-navigation">
-          <a class="header-logo-link"><img class="logo-image" src="img/shared/logo.svg" alt="Glaccy Shop Logo" width="154" height="64"></a>
-          <ul class="navigation-menu">
-            <li>
-              <a class="menu-link" href="catalog.html">Каталог</a>
-              <ul class="catalog-categories">
-                <li><a class="new-goods categoires-link" href="#">Новинки</a></li>
-                <li><a class="categoires-link" href="catalog.html">Сливочное</a></li>
-                <li><a class="categoires-link" href="#">Щербеты</a></li>
-                <li><a class="categoires-link" href="#">Фруктовый лед</a></li>
-                <li><a class="categoires-link" href="#">Мелорин</a></li>
-              </ul>
-            </li>
-            <li><a class="menu-link" href="#">Доставка и оплата</a></li>
-            <li><a class="menu-link" href="#">О Компании</a></li>
-          </ul>
-        </nav>
-        
-        <div class="header-right-column">
-          <section class="search-section">
-            <h2 class="visually-hidden">Поиск по сайту</h2>
+  <body class="main-page">    
+    <header class="page-header centring-container">
+      <nav class="page-header-navigation">
+        <a class="header-logo-link"><img class="logo-image" src="img/shared/logo.svg" alt="Glaccy Shop Logo" width="154" height="64"></a>
+        <ul class="navigation-menu">
+          <li>
+            <a class="menu-link" href="catalog.html">Каталог</a>
+            <ul class="catalog-categories">
+              <li><a class="new-goods categoires-link" href="#">Новинки</a></li>
+              <li><a class="categoires-link" href="catalog.html">Сливочное</a></li>
+              <li><a class="categoires-link" href="#">Щербеты</a></li>
+              <li><a class="categoires-link" href="#">Фруктовый лед</a></li>
+              <li><a class="categoires-link" href="#">Мелорин</a></li>
+            </ul>
+          </li>
+          <li><a class="menu-link" href="#">Доставка и оплата</a></li>
+          <li><a class="menu-link" href="#">О Компании</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-right-column">
+        <section class="search-section">
+          <h2 class="visually-hidden">Поиск по сайту</h2>
 
-            <a class="header-button search-button" href="#" aria-label="Поиск"></a>
-            <form class="search" method="get" action="https://echo.htmlacademy.ru/">        
-              <label class="visually-hidden" for="search-field">Строка поиска</label>
-              <input class="search-field" type="search" name="search" id="search-field" placeholder="Что ищем?">
-              <button class="visually-hidden" type="submit" aria-label="Найти"></button>
+          <a class="header-button search-button" href="#" aria-label="Поиск"></a>
+          <form class="search" method="get" action="https://echo.htmlacademy.ru/">        
+            <label class="visually-hidden" for="search-field">Строка поиска</label>
+            <input class="search-field" type="search" name="search" id="search-field" placeholder="Что ищем?">
+            <button class="visually-hidden" type="submit" aria-label="Найти"></button>
+          </form>
+        </section>
+
+        <ul class="page-header-authentication">
+          <li>
+            <a class="header-button authentication-link" href="#">Вход</a>
+            <form class="authentication" method="post" action="https://echo.htmlacademy.ru/">
+              <label class="visually-hidden" for="authentication-email-field" aria-label="Электронная почта"></label>
+              <input class="authentication-field" type="email" id="authentication-email-field" name="email" placeholder="Электронная почта">
+
+              <label class="visually-hidden" for="password-field" aria-label="Пароль"></label>
+              <input class="authentication-field" type="password" id="password-field" name="password" placeholder="Пароль">
+
+              <a class="authentication-link" href="#">Забыли пароль?</a>
+              <a class="authentication-link" href="#">Новая регистрация</a>
+
+              <button class="button authentication-submit" type="submit">Войти</button>
             </form>
-          </section>
+          </li>
+        </ul>
+        
+        <ul class="cart-operations">
+          <li><a class="header-button cart" href="#" aria-label="Корзина покупок">Пусто</a></li>
+        </ul>
 
-          <ul class="page-header-authentication">
-            <li>
-              <a class="header-button authentication-link" href="#">Вход</a>
-              <form class="authentication" method="post" action="https://echo.htmlacademy.ru/">
-                <label class="visually-hidden" for="authentication-email-field" aria-label="Электронная почта"></label>
-                <input class="authentication-field" type="email" id="authentication-email-field" name="email" placeholder="Электронная почта">
-
-                <label class="visually-hidden" for="password-field" aria-label="Пароль"></label>
-                <input class="authentication-field" type="password" id="password-field" name="password" placeholder="Пароль">
-
-                <a class="authentication-link" href="#">Забыли пароль?</a>
-                <a class="authentication-link" href="#">Новая регистрация</a>
-
-                <button class="button authentication-submit" type="submit">Войти</button>
-              </form>
-            </li>
-          </ul>
-          
-          <ul class="cart-operations">
-            <li><a class="header-button cart" href="#" aria-label="Корзина покупок">Пусто</a></li>
-          </ul>
-
-          <p class="phone-to-call">
-            С 10 до 20, ежедневно <span class="number">8 812 450-25-25</span>
-          </p>
-        </div>
-      </header>
-    </div>
-    
+        <p class="phone-to-call">
+          С 10 до 20, ежедневно <span class="number">8 812 450-25-25</span>
+        </p>
+      </div>
+    </header>
+        
     <main>
       <div class="centring-container">
         <section class="promos">
@@ -211,30 +209,28 @@
           <a class="button contact-us-link" href="#">Форма обратной связи</a>
         </div>
       </section>
-    </main>
+    </main>    
     
-    <div class="centring-container">
-      <footer class="page-footer">
-        <ul class="social-networks">
-          <li><a class="social-button twitter" href="#" aria-label="Глэйси в Twitter"></a></li>
-          <li><a class="social-button instagram" href="#" aria-label="Глэйси в Instagram"></a></li>
-          <li><a class="social-button facebook" href="#" aria-label="Глэйси в Facebook"></a></li>
-          <li><a class="social-button vk" href="#" aria-label="Глэйси в VK"></a></li>
-        </ul>
+    <footer class="page-footer centring-container">
+      <ul class="social-networks">
+        <li><a class="social-button twitter" href="#" aria-label="Глэйси в Twitter"></a></li>
+        <li><a class="social-button instagram" href="#" aria-label="Глэйси в Instagram"></a></li>
+        <li><a class="social-button facebook" href="#" aria-label="Глэйси в Facebook"></a></li>
+        <li><a class="social-button vk" href="#" aria-label="Глэйси в VK"></a></li>
+      </ul>
 
-        <ul class="additional-info">
-          <li><a class="partners info-link" href="#">Для поставщиков</a></li>
-          <li><a class="info-link" href="#">О производстве</a></li>
-          <li><a class="info-link" href="#">Наши документы</a></li>
-          <li><a class="info-link" href="#">Экологические стандарты</a></li>
-        </ul>
-        
-        <div class="copyright-container">
-          <a class="htmlacademy-copyright" href="#"><img class="copyright-image" src="img/shared/logo_htmlacademy.svg" alt="Ссылка на HTML Academy" width="108" height="39"><span class="visually-hidden">HTML Academy</span></a>
-          <p class="copyright-description">Сделано в <a class="copyright-link" href="#">HTML Academy</a> © 2017</p>
-        </div>
-      </footer>
-    </div>
+      <ul class="additional-info">
+        <li><a class="partners info-link" href="#">Для поставщиков</a></li>
+        <li><a class="info-link" href="#">О производстве</a></li>
+        <li><a class="info-link" href="#">Наши документы</a></li>
+        <li><a class="info-link" href="#">Экологические стандарты</a></li>
+      </ul>
+      
+      <div class="copyright-container">
+        <a class="htmlacademy-copyright" href="#"><img class="copyright-image" src="img/shared/logo_htmlacademy.svg" alt="Ссылка на HTML Academy" width="108" height="39"><span class="visually-hidden">HTML Academy</span></a>
+        <p class="copyright-description">Сделано в <a class="copyright-link" href="#">HTML Academy</a> © 2017</p>
+      </div>
+    </footer>    
 
     <section class="modal contact-us">
       <h2 class="visually-hidden">Форма обратной связи</h2>
