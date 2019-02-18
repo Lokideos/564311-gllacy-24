@@ -620,7 +620,7 @@ form.authentication .authentication-link:active {
   font-weight: 700;
   color: #323232;
 
-  text-decoration: underline;
+  border-bottom: 2px solid #353535;
 }
 
 .subscription {
