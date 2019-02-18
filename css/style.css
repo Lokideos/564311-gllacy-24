@@ -952,6 +952,9 @@ form.authentication .authentication-link:active {
 }
 
 .pagination .pages-list {
+  display: flex;
+  justify-content: flex-end;
+
   margin: 0;
   padding: 0;
 
