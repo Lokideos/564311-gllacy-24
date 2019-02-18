@@ -1153,3 +1153,7 @@ form.authentication .authentication-link:active {
 .catalog-page .page-footer {
   margin-top: 25px;
 }
+
+.location-right-container {
+  width: 302px;
+}
