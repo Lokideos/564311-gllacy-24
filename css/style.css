@@ -1132,13 +1132,9 @@ form.authentication .authentication-link:active {
 
 .catalog-top-row {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
 
   margin-bottom: 30px;
-}
-
-.catalog-top-row .breadcrumbs {
-  order: -1;
 }
 
 .filters {
