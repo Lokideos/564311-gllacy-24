@@ -289,6 +289,26 @@ input[type="radio"].visually-hidden {
   background-color: #9db1a5;
 }
 
+.search-button {
+  position: relative;
+
+  display: block;
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+}
+
+.search-button svg {
+  position: absolute;  
+  top: 7px;
+  left: 7px;
+}
+
+.search-button:hover svg g path {
+  fill: #323232;
+}
+
 form.search {
   color: #323232;
 
