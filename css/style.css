@@ -112,9 +112,25 @@ input[type="radio"].visually-hidden {
 }
 
 .menu-link {
+  position: relative;
+
   padding: 6px 14px;
 
   border-radius: 15px;  
+}
+
+.menu-link::before {
+  content: "";
+
+  position: absolute;
+  top: 26px;
+
+  width: calc(100% - 28px);
+  height: 1px;
+
+  
+  background-color: #ffffff;
+  opacity: 0.2;
 }
 
 .menu-link:hover,
