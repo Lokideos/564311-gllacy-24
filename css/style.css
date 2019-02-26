@@ -141,6 +141,7 @@ input[type="radio"].visually-hidden {
 
 .catalog-categories-container {
   position: relative;
+  height: 30px;
 }
 
 .navigation-menu {
@@ -167,7 +168,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-.catalog-categories-container:hover > .catalog-categories {
+.catalog-categories-container:hover .catalog-categories {
   display: block;
 }
 
