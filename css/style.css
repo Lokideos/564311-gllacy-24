@@ -107,8 +107,14 @@ input[type="radio"].visually-hidden {
   box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
 }
 
+.header-logo-link {
+  margin-right: 10px;
+}
+
 .menu-link {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 6px 14px;
+
+  border-radius: 15px;
 }
 
 .menu-link:hover,
@@ -133,38 +139,114 @@ input[type="radio"].visually-hidden {
   background-color: #d07058;
 }
 
+.catalog-categories-container {
+  position: relative;
+}
+
 .navigation-menu {
   margin: 0;
+  margin-top: 20px;
   padding: 0;
 
   list-style: none;
 }
 
 .catalog-categories {
-  margin: 0;
+  position: absolute;
+  top: 31px;
+  left: -6px;
+  
+  display: none;
+  width: 143px;  
+  margin: 0;  
   padding: 0;
+
+  border-radius: 5px;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
 
   list-style: none;
 }
 
-.navigation-menu .catalog-categories{
+.catalog-categories-container:hover > .catalog-categories {
+  display: block;
+}
+
+.navigation-menu .catalog-categories {
   background-color: #f8f7f4;
 }
 
 .catalog-categories .categoires-link {
+  display: block;
+  margin-bottom: 3px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  padding-left: 19px;
+
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
   color: #323232;
 }
 
+.catalog-categories > li:last-of-type .categoires-link {
+  margin: 0;
+}
+
+.catalog-categories > li:nth-of-type(2) .categoires-link {
+  padding-top: 10px;
+}
+
+.catalog-categories > li:last-of-type .categoires-link {
+  padding-bottom: 12px;
+}
+
+.catalog-categories .new-goods.categoires-link {
+  position: relative;
+
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 13px;
+  padding-left: 19px;
+}
+
+.new-goods.categoires-link::before {
+  content: "";
+
+  position: absolute;
+  top: 38px;
+  left: 5px;
+
+  width: 128px;
+  height: 1px;
+
+  background-color: #d1d0ce;
+}
+
 .catalog-categories .categoires-link:hover,
 .catalog-categories .categoires-link:focus {
-  background-color: #fbded7; 
+  background-color: #fbded7;  
 }
 
 .catalog-categories .categoires-link:active {
-  background-color: #f6b5a5;
+  background-color: #f6b5a5; 
+}
+
+.catalog-categories > li:first-of-type .categoires-link:hover,
+.catalog-categories > li:first-of-type .categoires-link:focus {
+  border-radius: 5px 5px 0 0;  
+}
+
+.catalog-categories > li:first-of-type .categoires-link:hover {
+  border-radius: 5px 5px 0 0;  
+}
+
+.catalog-categories > li:last-of-type .categoires-link:hover,
+.catalog-categories > li:last-of-type .categoires-link:focus {
+  border-radius: 0 0 5px 5px;  
+}
+
+.catalog-categories > li:last-of-type .categoires-link:hover {
+  border-radius: 0 0 5px 5px;  
 }
 
 .categoires-link.selected,
