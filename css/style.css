@@ -797,11 +797,22 @@ form.authentication .authentication-submit {
 }
 
 .feature-item {
-  background-color: #849d8f;  
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  min-height: 230px;
+  padding: 0 20px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+
+  border-radius: 20px;
+  background-color: #849d8f;
 }
 
 .feature-item .title {
   margin: 0;
+  margin-bottom: 16px;
 
   font-size: 35px;
   line-height: 41px;
@@ -816,6 +827,16 @@ form.authentication .authentication-submit {
   line-height: 22px;
   font-weight: 700;
   color: #ffffff;
+}
+
+.feature-link {
+  display: block;
+  align-self: flex-end;
+  margin-top: 43px;
+  padding-top: 9px;
+  padding-bottom: 13px;
+  padding-left: 22px;
+  padding-right: 24px;
 }
 
 .raspbery-promo {
@@ -1370,10 +1391,6 @@ form.authentication .authentication-submit {
   justify-content: space-between;
 
   margin-bottom: 40px;
-}
-
-.feature-item {
-  width: 560px;
 }
 
 .popular-goods {
