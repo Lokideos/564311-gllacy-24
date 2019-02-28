@@ -400,6 +400,10 @@ form.search .search-field:-ms-input-placeholder {
 }
 
 .page-header-authentication {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 
@@ -411,6 +415,30 @@ form.search .search-field:-ms-input-placeholder {
   padding: 0;
 
   list-style: none;
+}
+
+.cart-button {
+  position: relative;
+
+  display: block;  
+  padding-top: 9px;
+  padding-bottom: 7px;
+  padding-right: 18px;
+  padding-left: 44px;
+
+  border-radius: 20px;
+}
+
+.cart-button::before {
+  content: url("../img/shared/empty_cart.svg");
+
+  position: absolute;
+  top: 6px;
+  left: 16px;
+}
+
+.cart-button:hover::before {
+  content: url("../img/shared/filled_cart.svg")
 }
 
 .cart-operations .cart-goods {
@@ -434,9 +462,30 @@ form.search .search-field:-ms-input-placeholder {
 
 .cart-goods .cart-price {
   font-size: 15px;
-  line-height: 18px;
+  line-height: 17px;
   font-weight: 700;
   color: #323232;
+}
+
+.authentication-button {
+  display: block;
+  
+  padding: 8px 0;
+  padding-right: 17px;
+  padding-left: 43px;
+
+  border-radius: 20px;
+}
+
+.authentication-button svg {
+  position: absolute;
+  top: 6px;
+  left: 16px;
+}
+
+.authentication-button:hover svg path,
+.authentication-button:hover svg polygon {
+  fill: #000000;
 }
 
 form.authentication {
@@ -509,15 +558,28 @@ form.authentication .authentication-link:active {
 }
 
 .phone-to-call {
+  position: absolute;
+  top: 49px;
+  right: 0px;
+
   margin: 0;
   
   font-size: 14px;
   line-height: 16px;
-  font-weight: 700;  
+  font-weight: 700;
+  text-align: right;
   color: #ffffff;
 }
 
+.phone-to-call {
+  margin-right: 1px;
+}
+
 .phone-to-call .number {
+  display: block;
+  margin-right: -1px;
+  padding-top: 4px;
+
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;  
@@ -1185,8 +1247,12 @@ form.authentication .authentication-link:active {
 }
 
 .header-right-column {
+  position: relative;
+
   display: flex;
-  width: 267px;
+  justify-content: space-between;
+  width: 245px;
+  margin-top: 15px;
 }
 
 .promos {
