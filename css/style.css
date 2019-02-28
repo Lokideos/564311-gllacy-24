@@ -320,7 +320,7 @@ input[type="radio"].visually-hidden {
 
 form.search {
   position: absolute;
-  top: 35px;
+  top: 36px;
   right: 0px;
   z-index: 1;
 
@@ -503,7 +503,7 @@ form.search .search-field:-ms-input-placeholder {
 
 form.authentication {
   position: absolute;
-  top: 35px;
+  top: 36px;
   right: 0px;
   z-index: 2;
 
