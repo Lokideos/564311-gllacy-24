@@ -305,32 +305,63 @@ input[type="radio"].visually-hidden {
   left: 7px;
 }
 
-.search-button:hover svg g path {
+.search-button:hover svg path {
   fill: #323232;
 }
 
+.search-section {
+  position: relative;
+}
+
 form.search {
+  position: absolute;
+  top: 35px;
+  right: 0px;
+
+  display: none;
+
   color: #323232;
 
-  background-color: #f8f7f4;  
+  background-color: #f8f7f4;
+  border-top: 20px solid #f8f7f4;
+  border-bottom: 21px solid #f8f7f4;
+  border-right: 15px solid #f8f7f4;
+  border-left: 17px solid #f8f7f4;
+  border-radius: 6px;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+.search-section:hover form.search {
+  display: block;
 }
 
 form.search .search-field {
+  min-width: 308px;
+  padding-top: 9px;
+  padding-bottom: 6px;
+  padding-left: 11px;
+
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
   color: #323232;
 
-  border: 1px solid #d3d3d2;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #d3d3d2;
 }
 
 form.search .search-field:hover {
-  border: 2px solid #c7c6c5;
+  border: 2px solid #c7c6c5;  
+  border-radius: 5px;
+  box-shadow: none;
 }
 
 form.search .search-field:focus {
   outline: none;
   border: 2px solid #8fbdec;
+  border-radius: 5px;
+  box-shadow: none;
 }
 
 form.search .search-field::-webkit-input-placeholder {
@@ -1154,6 +1185,7 @@ form.authentication .authentication-link:active {
 }
 
 .header-right-column {
+  display: flex;
   width: 267px;
 }
 
