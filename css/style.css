@@ -695,7 +695,17 @@ form.authentication .authentication-submit {
   color: #ffffff; 
 }
 
+.promos {
+  position: relative;
+}
+
 .promos-slider-control {
+  position: absolute;
+  top: 485px;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 267px;
   margin: 0;
   padding: 0;
 
@@ -703,6 +713,10 @@ form.authentication .authentication-submit {
 }
 
 .slider-button {
+  width: 21px;
+  height: 21px;
+  margin-right: 8px;
+
   text-align: center;
   vertical-align: middle;
 
@@ -711,22 +725,26 @@ form.authentication .authentication-submit {
   border-radius: 50%;
 }
 
-.slider-button:not(.selected-slide):hover,
-.slider-button:not(.selected-slide):focus {
-  background-color: rgba(255, 255, 255, 0.4);
-}
-
 .slider-button.selected-slide {
   background-color: #ffffff;
 }
 
-.slider-button:hover,
-.slider-button:active {
+.slider-button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+
   cursor: pointer;
 }
 
 .slider-button:active {
   background-color: #ffffff;
+
+  cursor: pointer;
+}
+
+.slider-button.selected-slide:hover {
+  background-color: #ffffff;
+
+  cursor: default;
 }
 
 .promos-list {
