@@ -857,16 +857,20 @@ form.authentication .authentication-submit {
 }
 
 .goods-title {
+  z-index: 2;
+
   margin: 0;
+
+  text-align: center;
 }
 
 .goods-title > a {
   font-size: 16px;
-  line-height: 22px;
-  font-weight: 500;
+  line-height: 18px;
+  font-weight: 500;  
   color: #ffffff;
 
-  border-bottom: 1px solid rgba(169, 187, 177, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .goods-title > a:hover,
@@ -874,7 +878,7 @@ form.authentication .authentication-submit {
 .goods-title > a:active {
   color: #ffbc9e;
 
-  border-bottom: 1px solid rgba(167, 162, 148, 0.3);
+  border-bottom: 1px solid rgba(255, 188, 158, 0.3);
 }
 
 .goods-item .price {
@@ -1412,13 +1416,69 @@ form.authentication .authentication-submit {
 }
 
 .goods-item {
+  position: relative;  
+
+  display: flex;
+  flex-direction: column;  
+}
+
+.goods-item:hover::before {
+  content: "";
+
+  position: absolute;
+  top: -7px;
+  left: -13px;
+  z-index: 1;
+
+  width: 110%;
+  height: 128%;
+
+  border-radius: 5px;
+  background-color: rgb(248, 247, 244);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
+  opacity: 0.2;
+}
+
+.good-overview-link {
+  position: absolute;
+  left: 30px;
+  bottom: -60px;  
+  z-index: 2;
+
+  display: none;
+}
+
+.goods-item:hover .good-overview-link {
+  display: block;
+}
+
+.goods-item .good-container {
+  position: relative;
+  z-index: 2;
+
   display: flex;
   flex-direction: column;
+
+  order: -1
+}
+
+.good-container .price {
+  position: absolute;
+  top: 207px;  
+}
+
+.good-container .good-image-wrapper::before {
+  content: url("../img/index/popular_icon.svg");
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
 
 .goods-item .good-image {
   order: -1;
 }
+
 .shop-info {
   margin-bottom: 40px;
 }
