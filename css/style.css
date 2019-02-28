@@ -69,6 +69,8 @@ input[type="radio"].visually-hidden {
 }
 
 .button {
+  padding: 11px 19px;
+
   font-size: 18px;
   line-height: 24px;
   text-align: center;
@@ -80,8 +82,9 @@ input[type="radio"].visually-hidden {
   background-image: -moz-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
-  box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 0.004);
-  border: 0;
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+  border: none;
+  border-radius: 25px;
 }
 
 .button:hover,
@@ -97,14 +100,14 @@ input[type="radio"].visually-hidden {
                      -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
   background-image: -ms-linear-gradient( 90deg, rgba(255,255,255, 0.2) 100%, rgba(255,255,255, 0.2) 100%),
                     -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);  
-  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.004);
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
 }
 
 .button:active {
   background-image: -moz-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
-  box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
+  box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.64);
 }
 
 .header-logo-link {
@@ -410,6 +413,10 @@ form.search .search-field:-ms-input-placeholder {
   list-style: none;
 }
 
+.page-header-authentication:hover form.authentication {
+  display: block;
+}
+
 .cart-operations {
   margin: 0;
   padding: 0;
@@ -489,18 +496,44 @@ form.search .search-field:-ms-input-placeholder {
 }
 
 form.authentication {
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  z-index: 1;
+
+  display: none;
+
   color: #323232;
 
-  background-color: #f8f7f4;
+  background-color: #f8f7f4;  
+  border-top: 20px solid #f8f7f4;
+  border-bottom: 21px solid #f8f7f4;
+  border-right: 17px solid #f8f7f4;
+  border-left: 20px solid #f8f7f4;
+  border-radius: 6px;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
 }
 
 form.authentication .authentication-field {
+  box-sizing: border-box;
+  min-width: 240px;
+  margin-bottom: 22px;
+  padding-top: 9px;
+  padding-bottom: 6px;
+  padding-left: 11px;
+
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
   color: #323232;
+  
+  border: 2px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #d3d3d2;
+}
 
-  border: 1px solid #d3d3d2;
+form.authentication .authentication-field:last-of-type {
+  margin-bottom: 17px;
 }
 
 form.authentication .authentication-field:hover {
@@ -510,6 +543,21 @@ form.authentication .authentication-field:hover {
 form.authentication .authentication-field:focus {
   outline: none;
   border: 2px solid #8fbdec;
+}
+
+form.authentication .authentication-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.authentication-bottom-right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2px;
+  margin-right: 2px;
+  order: 1;
 }
 
 form.authentication .authentication-field::-webkit-input-placeholder {
@@ -541,12 +589,23 @@ form.authentication .authentication-field:-ms-input-placeholder {
 }
 
 form.authentication .authentication-link {
+  position: relative;
+
+  display: block;
+  min-width: 5px;
+
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
-  color: #323232; 
+  color: #323232;
 
-  border-bottom: 1px solid rgba(178, 178, 178, 0.3);
+  text-decoration: underline;
+  text-decoration-color: #b2b2b2;
+}
+
+form.authentication .authentication-link:last-of-type {
+  position: relative;
+  top: -2px;
 }
 
 form.authentication .authentication-link:hover,
@@ -554,7 +613,16 @@ form.authentication .authentication-link:focus,
 form.authentication .authentication-link:active {
   color: #e84d37;
 
-  border-bottom: 1px solid rgba(249, 205, 196, 0.3);
+  text-decoration-color: rgba(232, 77, 55, 0.3);
+}
+
+form.authentication .authentication-submit {    
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  padding-left: 24px;
+
+  border-radius: 20px;
 }
 
 .phone-to-call {
