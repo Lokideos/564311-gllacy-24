@@ -175,6 +175,7 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 31px;
   left: -6px;
+  z-index: 1;
   
   display: none;
   width: 143px;  
@@ -308,7 +309,8 @@ input[type="radio"].visually-hidden {
   left: 7px;
 }
 
-.search-button:hover svg path {
+.search-button:hover svg path,
+.search-button:focus svg path {
   fill: #323232;
 }
 
@@ -320,6 +322,7 @@ form.search {
   position: absolute;
   top: 35px;
   right: 0px;
+  z-index: 1;
 
   display: none;
 
@@ -444,7 +447,8 @@ form.search .search-field:-ms-input-placeholder {
   left: 16px;
 }
 
-.cart-button:hover::before {
+.cart-button:hover::before,
+.cart-button:focus::before {
   content: url("../img/shared/filled_cart.svg")
 }
 
@@ -491,7 +495,9 @@ form.search .search-field:-ms-input-placeholder {
 }
 
 .authentication-button:hover svg path,
-.authentication-button:hover svg polygon {
+.authentication-button:hover svg polygon,
+.authentication-button:focus svg path,
+.authentication-button:focus svg polygon {
   fill: #000000;
 }
 
@@ -499,7 +505,7 @@ form.authentication {
   position: absolute;
   top: 35px;
   right: 0px;
-  z-index: 1;
+  z-index: 2;
 
   display: none;
 
@@ -629,6 +635,7 @@ form.authentication .authentication-submit {
   position: absolute;
   top: 49px;
   right: 0px;
+  z-index: 1;
 
   margin: 0;
   
