@@ -980,13 +980,20 @@ form.authentication .authentication-submit {
 }
 
 .ice-cream-blog {
+  box-sizing: border-box;
+  min-height: 220px;
+  padding: 0 20px;
+
   background-color: #ffffff;
   background-image: url("../img/index/serving_article_background.jpg");
   background-repeat: no-repeat;
+  border-radius: 15px;
 }
 
-.ice-cream-blog .title {
-  margin: 0;
+.ice-cream-blog .title {  
+  margin: 0; 
+  margin-bottom: 3px;
+  padding-top: 23px;
 
   font-size: 16px;
   line-height: 22px;
@@ -994,13 +1001,28 @@ form.authentication .authentication-submit {
   color: #323232;
 }
 
-.ice-cream-blog .article-link {
+.article-link-wrapper {
+  width: 290px;
+  margin-bottom: 10px;  
+}
+
+.ice-cream-blog .article-link {  
+  display: block;
+  width: 290px;
+  margin-bottom: 10px;  
+
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
-  color: #323232;
+  text-decoration: underline;
+  color: #323232; 
+}
 
-  border-bottom: 2px solid #353535;
+.ice-cream-blog .article-link:hover,
+.ice-cream-blog .article-link:focus,
+.ice-cream-blog .article-link:active {
+  text-decoration-color: rgba(232, 77, 55, 0.3);
+  color: #e84d37;
 }
 
 .subscription {
