@@ -1026,18 +1026,30 @@ form.authentication .authentication-submit {
 }
 
 .subscription {
+  width: 550px;
+  padding: 5px;
+
   background-color: #f8f7f4;
   background-image: url("../img/index/contact_us_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 15px;
 }
 
 .subscription-content {
+  box-sizing: border-box;
+  min-height: 210px;
+  padding: 20px;
+  padding-left: 21px;
+  padding-top: 29px;
+
   background-color: #f8f7f4;
+  border-radius: 10px;
 }
 
 .subscription-decription {
   margin: 0;
+  margin-bottom: 35px;
 
   font-size: 16px;
   line-height: 22px;
@@ -1045,8 +1057,23 @@ form.authentication .authentication-submit {
   color: #5a5a5a;
 }
 
+.subscription-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .subscription-form .subscription-email-field {
-  border: 1px solid #d3d3d2;
+  box-sizing: border-box;
+  min-width: 368px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 11px;
+
+  border: 2px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #d3d3d2;
+
 }
 
 .subscription-form .subscription-email-field:hover {
@@ -1084,6 +1111,12 @@ form.authentication .authentication-submit {
   line-height: 24px;
   font-weight: 400;
   color: #999999;
+}
+
+.subscription-form-button {
+  padding: 0 18px;
+  padding-top: 8px;
+  padding-bottom: 12px;
 }
 
 .location {
@@ -1563,10 +1596,6 @@ form.authentication .authentication-submit {
 }
 
 .ice-cream-blog {
-  width: 560px;
-}
-
-.subscription {
   width: 560px;
 }
 
