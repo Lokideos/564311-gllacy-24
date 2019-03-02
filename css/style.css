@@ -1035,7 +1035,9 @@ form.authentication .authentication-submit {
 .goods-title {
   z-index: 5;
 
+  width: 257px;
   margin: 0;
+  margin-left: 6px;
   margin-top: 5px;
 
   text-align: center;
@@ -1907,7 +1909,8 @@ form.authentication .authentication-submit {
   position: relative;  
 
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .goods-item:hover::before {
