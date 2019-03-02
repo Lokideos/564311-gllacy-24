@@ -814,6 +814,9 @@ form.authentication .authentication-submit {
 }
 
 .breadcrumbs {
+  display: flex;  
+  flex-wrap: wrap;
+
   margin: 0;
   padding: 0;
 
@@ -821,28 +824,62 @@ form.authentication .authentication-submit {
 }
 
 .breadcrumb-link {
+  position: relative;
+
+  margin-right: 21px;
+
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
   color: #ffffff;
-
-  border-bottom: 1px solid rgba(169, 187, 177, 0.3);
 }
 
-.breadcrumb-link.selected {
-  border-bottom: none;
+.breadcrumb-link::before {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 1px;
+
+  background-color: #ffffff;
+  opacity: 0.2;
+}
+
+.breadcrumb-link:not(.selected)::after {
+  content: "»";  
+
+  position: absolute;
+  top: 0;
+  right: -15px;
+
+  font-size: 13px;
+}
+
+.breadcrumb-link:hover:not(.selected)::after,
+.breadcrumb-link:focus::after,
+.breadcrumb-link:active::after {
+  color: #ffffff;
+}
+
+.breadcrumb-link.selected::before {
+  height: 0;
 }
 
 .breadcrumb-link:hover:not(.selected),
 .breadcrumb-link:focus,
 .breadcrumb-link:active {
   color: #ffbc9e;
-
-  border-bottom: 1px solid rgba(167, 162, 148, 0.3);
 }
 
-.breadcrumb-link.selected:hover {
-  color: #ffffff; 
+.breadcrumb-link:hover:not(.selected)::before,
+.breadcrumb-link:focus::before,
+.breadcrumb-link:active::before {
+  background-color: #ffbc9e;
+
+  opacity: 0.3;
 }
 
 .promos-slider-control {
@@ -1764,6 +1801,10 @@ form.authentication .authentication-submit {
 
   display: flex;
   justify-content: space-between;
+}
+
+.catalog-page .page-header {
+  margin-bottom: 18px;
 }
 
 .logo-image {
