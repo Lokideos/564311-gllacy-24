@@ -1744,10 +1744,18 @@ form.authentication .authentication-submit {
   box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);  
 }
 
-.pagination .pages-list {
+.pagination {
   display: flex;
   justify-content: flex-end;
+  margin-right: -12px;
+}
 
+.pagination .pages-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 210px;
   margin: 0;
   padding: 0;
 
@@ -1755,10 +1763,19 @@ form.authentication .authentication-submit {
 }
 
 .pages-list .page-link {
+  display: block;
+  box-sizing: border-box; 
+  width: 26px;
+  height: 26px;
+  padding-top: 5px;
+  padding-left: 8.5px;
+
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
   color: #ffffff; 
+
+  border-radius: 50%;
 }
 
 .pages-list .page-link:hover,
@@ -1779,16 +1796,102 @@ form.authentication .authentication-submit {
   background-color: #ffffff; 
 }
 
+.page-link.go-back {
+  position: relative;
+
+  margin-right: 4px;
+}
+
+.page-link.go-back::before {
+  content: "";
+
+  position: absolute;
+  top: 11px;
+  left: 8px;
+
+  width: 8px;
+  height: 1px;
+
+  background-color: #ffffff;
+  transform: rotate(-45deg);  
+}
+
+.page-link.go-back::after {
+  content: "";
+
+  position: absolute;
+  top: 16px;
+  left: 8px;
+
+  width: 8px;
+  height: 1px;
+
+  background-color: #ffffff;
+  transform: rotate(45deg);  
+}
+
+.page-link.go-forward {
+  position: relative;
+
+  margin-left: 7px;
+}
+
+.page-link.go-forward::before {
+  content: "";
+
+  position: absolute;
+  top: 11px;
+  left: 9px;
+
+  width: 8px;
+  height: 1px;
+
+  background-color: #ffffff;
+  transform: rotate(45deg);  
+}
+
+.page-link.go-forward::after {
+  content: "";
+
+  position: absolute;
+  top: 16px;
+  left: 9px;
+
+  width: 8px;
+  height: 1px;
+
+  background-color: #ffffff;
+  transform: rotate(135deg);  
+}
+
+.page-link.step-move:active::after {
+  background-color:#323232;
+}
+
+.page-link.step-move:active::before {
+  background-color:#323232;
+}
+
 .go-back.on-first-page {
   opacity: 0.2;
 }
 
 .go-back.on-first-page:hover {
-  background-color: inherit;
+  background-color: transparent;
 }
 
 .go-back.on-first-page:active {
   color: inherit;
+  
+  background-color: transparent;
+}
+
+.go-back.on-first-page:active::after {
+  background-color: #ffffff;
+}
+
+.go-back.on-first-page:active::before {
+  background-color: #ffffff;
 }
 
 .centring-container {
@@ -2018,7 +2121,7 @@ form.authentication .authentication-submit {
 }
 
 .catalog-page .goods-list {
-  margin-bottom: 85px;
+  margin-bottom: 41px;
 }
 
 .catalog-page .page-footer {
