@@ -1402,10 +1402,6 @@ form.authentication .authentication-submit {
   border-bottom: 1px solid rgba(167, 162, 148, 0.3);
 }
 
-.modal.contact-us {
-  background-color: #f8f7f4;
-}
-
 .contact-us .declaration {
   margin: 0;
   
@@ -1811,4 +1807,87 @@ form.authentication .authentication-submit {
 
 .catalog-page .page-footer {
   margin-top: 25px;
+}
+
+.modal {
+  position: relative;
+
+  width: 440px;
+  min-height: 412px;
+  margin: 0 auto;
+  padding: 15px;
+  padding-left: 23px;
+
+  background-color: #f8f7f4;
+  border-radius: 8px;
+}
+
+.modal .declaration {
+  margin-bottom: 21px;
+  
+}
+
+form.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form.contact-us-form .contact-us-field {
+  box-sizing: border-box;
+  min-width: 265px;
+  margin-left: 2px;
+  margin-bottom: 22px;
+  padding-top: 9px;
+  padding-bottom: 5px;
+  padding-left: 11px;
+
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #323232;
+
+  border: 2px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #d3d3d2;
+}
+
+form.contact-us-form .form-message-field {
+  box-sizing: border-box;
+  width: 425px;
+  min-height: 152px;
+  margin-left: 2px;
+  margin-bottom: 26px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 11px;
+
+  border: 2px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #d3d3d2;
+
+  resize: none;
+}
+
+form.contact-us-form .contact-us-button {
+  align-self: flex-end;
+  margin-right: 11px;
+  padding-top: 9px;
+  padding-right: 23px;
+  padding-left: 23px;
+}
+
+.modal .close-button {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+
+  width: 18px;
+  height: 17px;
+
+  border: none;
+  background-color: transparent;
+  background-image: url("../img/shared/modal_close_icon.svg");
+  
+  cursor: pointer;
 }
