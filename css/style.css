@@ -1033,7 +1033,7 @@ form.authentication .authentication-submit {
 }
 
 .goods-title {
-  z-index: 2;
+  z-index: 5;
 
   margin: 0;
   margin-top: 5px;
@@ -1916,7 +1916,7 @@ form.authentication .authentication-submit {
   position: absolute;
   top: -7px;
   left: -13px;
-  z-index: 1;
+  z-index: 3;
 
   width: 110%;
   height: 128%;
@@ -1931,7 +1931,7 @@ form.authentication .authentication-submit {
   position: absolute;
   left: 30px;
   bottom: -60px;  
-  z-index: 2;
+  z-index: 4;
 
   display: none;
 }
@@ -1952,10 +1952,10 @@ form.authentication .authentication-submit {
 
 .good-container .price {
   position: absolute;
-  top: 207px;  
+  top: 207px;
 }
 
-.good-container .good-image-wrapper::before {
+.popular-item .good-image-wrapper::before {
   content: url("../img/index/popular_icon.svg");
 
   position: absolute;
