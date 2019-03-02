@@ -2210,3 +2210,24 @@ form.contact-us-form .contact-us-button {
   
   cursor: pointer;
 }
+
+.catalog-page .page-footer {
+  position: relative;
+
+  margin-top: 30px;
+  padding-top: 24px;
+}
+
+.catalog-page .page-footer::before {
+  content: "";
+  
+  position: absolute;
+  top: 0;
+  left: 26px;
+
+  width: calc(100% - 54px);
+  height: 1px;
+
+  background-color: #ffffff;
+  opacity: 0.3;
+}
