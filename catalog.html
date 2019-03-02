@@ -155,12 +155,12 @@
 
         <form class="filters-form" method="get" action="https://echo.htmlacademy.ru">
           <fieldset class="sorting-filters">
-            <legend>Соритровка:</legend>
+            <legend>Сортировка:</legend>
 
             <div class="filter-background">
               <label class="visually-hidden soritng-filters" for="sorting-filters-field" aria-label="Алгоритм сортировки"></label>
               <select class="soritng-filters-select" id="sorting-filters-field" name="sorting-filters">
-                <option value="popularity">по популярности</option>
+                <option value="popularity"><span class="select-text">по популярности</span></option>
                 <option value="cheap-first">сначала недорогие</option>
                 <option value="expensive-first">сначала дорогие</option>
                 <option value="fat">по жирности</option>
@@ -169,11 +169,22 @@
           </fieldset>
 
           <fieldset class="price-filters">
-            <legend>Цена:</legend>
+            <legend>Цена: <span>100 руб. – 500 руб.</span></legend>
             
             <div class="filter-background">
-              <p>100 руб. - 500 руб.</p>
-              <div class="price-placeholder"></div>
+              <div class="filter-price-scroll">
+                <div class="filter-price-scroll-controls">
+                  <div class="scale">
+                    <div class="bar"></div>
+                  </div>
+                  <div class="fitler-set-price-container min-price-container">
+                    <div class="toggle min-toggle"></div>                    
+                  </div>
+                  <div class="fitler-set-price-container max-price-container">
+                    <div class="toggle max-toggle"></div>                    
+                  </div>
+                </div>                    
+              </div>
             </div>
           </fieldset>
           
@@ -181,10 +192,10 @@
             <legend>Жирность:</legend>
 
             <div class="filter-background">              
-              <input class="fats-field-radio-button" type="radio" name="fats-control" id="fats-control-1" value="0%"><label for="fats-control-1">0%</label>
-              <input class="fats-field-radio-button" type="radio" name="fats-control" id="fats-control-2" value="< 10%" checked><label for="fats-control-2">до 10%</label>
-              <input class="fats-field-radio-button" type="radio" name="fats-control" id="fats-control-3" value="< 30%"><label for="fats-control-3">до 30%</label>
-              <input class="fats-field-radio-button" type="radio" name="fats-control" id="fats-control-4" value="< 30%"><label for="fats-control-4">выше 30%</label>
+              <input class="visually-hidden fats-field-radio-button" type="radio" name="fats-control" id="fats-control-1" value="0%"><label for="fats-control-1">0%</label>
+              <input class="visually-hidden fats-field-radio-button" type="radio" name="fats-control" id="fats-control-2" value="< 10%" checked><label for="fats-control-2">до 10%</label>
+              <input class="visually-hidden fats-field-radio-button" type="radio" name="fats-control" id="fats-control-3" value="< 30%"><label for="fats-control-3">до 30%</label>
+              <input class="visually-hidden fats-field-radio-button" type="radio" name="fats-control" id="fats-control-4" value="< 30%"><label for="fats-control-4">выше 30%</label>
             </div>
           </fieldset>
 
@@ -192,11 +203,11 @@
             <legend>Наполнители:</legend>
             
             <div class="filter-background">
-              <input class="ingredient-checkbox" type="checkbox" name="chocolate" id="ingridient-control-1" checked><label for="ingridient-control-1">шоколадные</label>
-              <input class="ingredient-checkbox" type="checkbox" id="ingridient-control-2" name="sugar-powder" checked><label for="ingridient-control-2">сахарные присыпки</label>
-              <input class="ingredient-checkbox" type="checkbox" id="ingridient-control-3" name="fruits"><label for="ingridient-control-3">фрукты</label>
-              <input class="ingredient-checkbox" type="checkbox" id="ingridient-control-4" name="syrups"><label for="ingridient-control-4">сиропы</label>
-              <input class="ingredient-checkbox" type="checkbox" id="ingridient-control-5" name="jams"><label for="ingridient-control-5">джемы</label>
+              <input class="visually-hidden ingredient-checkbox" type="checkbox" name="chocolate" id="ingridient-control-1" checked><label for="ingridient-control-1">шоколадные</label>
+              <input class="visually-hidden ingredient-checkbox" type="checkbox" id="ingridient-control-2" name="sugar-powder" checked><label for="ingridient-control-2">сахарные присыпки</label>
+              <input class="visually-hidden ingredient-checkbox" type="checkbox" id="ingridient-control-3" name="fruits"><label for="ingridient-control-3">фрукты</label>
+              <input class="visually-hidden ingredient-checkbox" type="checkbox" id="ingridient-control-4" name="syrups"><label for="ingridient-control-4">сиропы</label>
+              <input class="visually-hidden ingredient-checkbox" type="checkbox" id="ingridient-control-5" name="jams"><label for="ingridient-control-5">джемы</label>
             </div>
           </fieldset>
 
