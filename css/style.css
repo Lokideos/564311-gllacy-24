@@ -434,8 +434,20 @@ form.search .search-field:-ms-input-placeholder {
 }
 
 .cart-operations:hover .cart-goods,
-.cart-operations:focus .cart-goods{
+.cart-operations:focus .cart-goods {
   display: block;
+}
+
+.cart-operations:hover .filled-cart,
+.cart-operations:focus .filled-cart {
+  color: #323232;
+
+  background-color: #f8f7f4;
+}
+
+.cart-operations:hover .filled-cart::before,
+.cart-operations:focus .filled-cart::before {
+  content: url("../img/shared/filled_cart.svg")
 }
 
 .cart-button {
@@ -1081,8 +1093,10 @@ form.authentication .authentication-submit {
 
 .shop-info {
   box-sizing: border-box;
-  min-height: 307px;
+  min-height: 305px;
+  margin-bottom: 40px;
   padding: 3px 21px;
+  padding-bottom: 0;
 
   background-color: #ebddbd;
   background-image: url("../img/index/features_background_full.jpg");
@@ -1990,10 +2004,6 @@ form.authentication .authentication-submit {
   margin-bottom: 40px;
 }
 
-.popular-goods {
-  margin-bottom: 40px;
-}
-
 .goods-list {
   display: flex;
   flex-wrap: wrap;
@@ -2073,10 +2083,6 @@ form.authentication .authentication-submit {
   order: -1;
 }
 
-.shop-info {
-  margin-bottom: 40px;
-}
-
 .index-columns {
   display: flex;
   justify-content: space-between;
@@ -2097,7 +2103,7 @@ form.authentication .authentication-submit {
   display: flex;
   justify-content: space-between;  
   min-height: 85px;
-  padding-top: 18px; 
+  padding-top: 17px; 
   
   background-color: #849d8f;
 }
@@ -2122,10 +2128,6 @@ form.authentication .authentication-submit {
 
 .catalog-page .goods-list {
   margin-bottom: 41px;
-}
-
-.catalog-page .page-footer {
-  margin-top: 25px;
 }
 
 .modal {
