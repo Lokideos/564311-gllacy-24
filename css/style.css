@@ -1120,12 +1120,29 @@ form.authentication .authentication-submit {
 }
 
 .location {
-  background-color: #ffffff;
+  position: relative;  
+}
+
+.location-right-container {
+  position: absolute;
+  top: 62px;
+  right: 27px;
+
+  width: 252px;  
+  padding: 25px;
+  padding-top: 28px;
+  padding-bottom: 32px;
+
+  background-color: #fbfbfb;
+  border-radius: 15px;
 }
 
 .location .address,
 .location .phone {
+  display: block;
+    
   margin: 0;
+  margin-bottom: 18px;  
   padding: 0;
 
   font-size: 14px;
@@ -1135,6 +1152,9 @@ form.authentication .authentication-submit {
 }
 
 .address .address-line {
+  display: block;
+  padding-top: 1px;
+
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -1142,10 +1162,20 @@ form.authentication .authentication-submit {
 }
 
 .phone .phone-line {
+  display: block;
+  padding-top: 4px;
+  margin-bottom: 4px;
+
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
   color: #323232;
+}
+
+.contact-us-link {
+  display: block;
+  margin-top: 24px;
+  padding-top: 8px;
 }
 
 .page-footer {
@@ -1639,8 +1669,4 @@ form.authentication .authentication-submit {
 
 .catalog-page .page-footer {
   margin-top: 25px;
-}
-
-.location-right-container {
-  width: 302px;
 }
