@@ -13,8 +13,8 @@
       <nav class="page-header-navigation">
         <a class="header-logo-link" href="index.html"><img class="logo-image" src="img/shared/logo.svg" alt="Glaccy Shop Logo" width="154" height="64"></a>
         <ul class="navigation-menu">
-          <li>
-            <a class="menu-link selected" href="catalog.html">Каталог</a>
+            <li class="catalog-categories-container">
+            <a class="menu-link selected catalog-caller" href="catalog.html">Каталог</a>
             <ul class="catalog-categories">
               <li><a class="new-goods categoires-link" href="#">Новинки</a></li>
               <li><a class="categoires-link selected">Сливочное</a></li>
@@ -32,7 +32,20 @@
         <section class="search-section">
           <h2 class="visually-hidden">Поиск по сайту</h2>
 
-          <a class="header-button search-button" href="#" aria-label="Поиск"></a>
+          <a class="header-button search-button" href="#" aria-label="Поиск">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px"
+              height="17px" viewBox="0 0 17 17" enable-background="new 0 0 17 17" xml:space="preserve">
+              <g id="Layer_1">
+                <image overflow="visible" width="17" height="17">
+                </image>
+              </g>
+              <g id="Layer_2">
+                <path fill="#FFFFFF" d="M16.958,15.527L11.75,10.32C12.533,9.247,13,7.93,13,6.5C13,2.91,10.09,0,6.5,0S0,2.91,0,6.5
+                  S2.91,13,6.5,13c1.438,0,2.763-0.473,3.839-1.263l5.205,5.204L16.958,15.527z M6.5,11C4.019,11,2,8.981,2,6.5S4.019,2,6.5,2
+                  S11,4.019,11,6.5S8.981,11,6.5,11z"/>
+              </g>
+            </svg>
+          </a>
           <form class="search" method="get" action="https://echo.htmlacademy.ru/">        
             <label class="visually-hidden" for="search-field">Строка поиска</label>
             <input class="search-field" type="search" name="search" id="search-field" placeholder="Что ищем?">
@@ -42,24 +55,38 @@
 
         <ul class="page-header-authentication">
           <li>
-            <a class="header-button authentication-link" href="#">Вход</a>
+            <a class="header-button authentication-button" href="#">
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="21px" height="19px" viewBox="0 0 21 19" enable-background="new 0 0 21 19" xml:space="preserve">
+                <image overflow="visible" width="21" height="19">
+                </image>
+                <g>
+                  <polygon fill="#FFFFFF" points="6,14.875 12.917,9.5 6,4.125 6,7.042 -0.042,7.042 -0.042,11.959 6,11.959 	"/>
+                  <path fill="#FFFFFF" d="M18,0H5C3.9,0,3,0.9,3,2v2h2V2h13v15H5v-2H3v2c0,1.1,0.9,2,2,2h13c1.1,0,2-0.9,2-2V2C20,0.9,19.1,0,18,0z"/>
+                </g>
+              </svg>             
+              Вход              
+            </a>
             <form class="authentication" method="post" action="https://echo.htmlacademy.ru/">
               <label class="visually-hidden" for="authentication-email-field" aria-label="Электронная почта"></label>
-              <input class="authentication-field" type="email" id="authentication-email-field" placeholder="Электронная почта">
-
+              <input class="authentication-field" type="email" id="authentication-email-field" name="email" placeholder="Электронная почта">
+  
               <label class="visually-hidden" for="password-field" aria-label="Пароль"></label>
-              <input class="authentication-field" type="password" id="password-field" placeholder="Пароль">
-
-              <a class="authentication-link" href="#">Забыли пароль?</a>
-              <a class="authentication-link" href="#">Новая регистрация</a>
-
-              <button class="button authentication-submit" type="submit">Войти</button>
+              <input class="authentication-field" type="password" id="password-field" name="password" placeholder="Пароль">
+              <div class="authentication-bottom">
+                <div class="authentication-bottom-right-column">
+                  <a class="authentication-link" href="#">Забыли пароль?</a>
+                  <a class="authentication-link" href="#">Новая регистрация</a>
+                </div>
+  
+                <button class="button authentication-submit" type="submit">Войти</button>
+              </div>
             </form>
           </li>
         </ul>
         
         <ul class="cart-operations">
-          <li><a class="header-button cart filled-cart" href="#" aria-label="Корзина покупок">2 товара</a></li>
+          <li><a class="header-button cart cart-button filled-cart" href="#" aria-label="Корзина покупок">2 товара</a></li>
           <li class="cart-goods">
             <table class="goods-table">
               <tr class="visually-hidden">
@@ -69,27 +96,27 @@
               </tr>
               <tr>
                 <td>
-                  <a class="delete-cart-position" href="#">Удалить позицию</a>
+                  <a class="delete-cart-position" href="#"><span class="visually-hidden">Удалить позицию</span></a>
                   <img class="cart-good-image" src="img/ice_cream_types/minimized/orange_mini.png" alt="Пломбир с апельсиновым джемом" width="33" height="33">
                   <p class="description">Пломбир с апельсиновым джемом</p>
                 </td>
-                <td>
+                <td class="item-price">
                   1,5 кг х <span class="position-price">200 руб.</span>
                 </td>
-                <td>
+                <td class="item-total-price">
                   300 руб.
                 </td>
               </tr>
               <tr>
                 <td>
-                  <a class="delete-cart-position" href="#">Удалить позицию</a>
+                  <a class="delete-cart-position" href="#"><span class="visually-hidden">Удалить позицию</span></a>
                   <img class="cart-good-image" src="img/ice_cream_types/minimized/strawberry_mini.png" alt="Клубничный пломбир с присыпкой из белого шоколада" width="33" height="33">
-                  <p class="description">Клубничный пломбир с присыпкой из белого шоколада</p>
+                  <p class="description last-item-description">Клубничный пломбир с присыпкой из белого шоколада</p>
                 </td>
-                <td>
+                <td class="item-price">
                   1,5 кг х <span class="position-price">300 руб.</span>
                 </td>
-                <td>
+                <td class="item-total-price">
                   450 руб.
                 </td>
               </tr>
@@ -99,8 +126,10 @@
                 </td>
               </tr>
             </table>
-
-            <a class="button buy-link" href="#">Оформить заказ</a>
+            
+            <div class="buy-link-wrapper">
+              <a class="button buy-link" href="#">Оформить заказ</a>
+            </div>
           </li>
         </ul>
 
@@ -314,16 +343,25 @@
       </ul>
 
       <ul class="additional-info">
-        <li><a class="partners info-link" href="#">Для поставщиков</a></li>
-        <li><a class="info-link" href="#">О производстве</a></li>
+        <li class="info-link-container">
+          <a class="partners info-link" href="#">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              width="15px" height="13px" viewBox="0 0 15 13" enable-background="new 0 0 15 13" xml:space="preserve" class="parters-svg-icon">
+              <path fill="#FFFFFF" d="M10.799,0c-1.35,0-2.551,0.65-3.3,1.661C6.75,0.65,5.549,0,4.199,0C1.875,0,0,1.806,0,4.044
+                C0,7.223,7.499,13,7.499,13s7.499-5.777,7.499-8.956C14.998,1.806,13.123,0,10.799,0z"/>
+          </svg>           
+            Для поставщиков            
+          </a>
+        </li>        
         <li><a class="info-link" href="#">Наши документы</a></li>
+        <li><a class="info-link" href="#">О производстве</a></li>
         <li><a class="info-link" href="#">Экологические стандарты</a></li>
-      </ul>
+      </ul>      
       
       <div class="copyright-container">
-        <a class="htmlacademy-copyright" href="#"><img class="copyright-image" src="img/shared/logo_htmlacademy.svg" alt="Ссылка на HTML Academy" width="108" height="39"><span class="visually-hidden">HTML Academy</span></a>
-        <p class="copyright-description">Сделано в <a class="copyright-link" href="#">HTML Academy</a> © 2017</p>
+        <a class="htmlacademy-copyright" href="https://up.htmlacademy.ru/htmlcss/24"><img class="copyright-image" src="img/shared/logo-htmlacademy.png" alt="Ссылка на HTML Academy" width="108" height="39"><span class="visually-hidden">HTML Academy</span></a>
+        <p class="copyright-description">Сделано в <a class="copyright-link" href="https://up.htmlacademy.ru/htmlcss/24">HTML Academy</a> © 2019</p>
       </div>
-    </footer>    
+    </footer>
   </body>
 </html>
