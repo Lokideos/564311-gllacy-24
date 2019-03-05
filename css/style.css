@@ -28,6 +28,8 @@ body {
   letter-spacing: 0;
   font-weight: 500;
   color: #ffffff;
+
+  background-color: #849d8f;
 }
 
 img {
@@ -77,8 +79,8 @@ input[type="radio"].visually-hidden {
   color: #fefefe;
 
   background-color: #e94f38;
-  background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%),
+                    -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
   -webkit-box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
           box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
   border: none;
@@ -1069,9 +1071,15 @@ form.authentication .authentication-submit {
 
   border-radius: 20px;
   background-color: #849d8f;
+  background-size: cover;
 }
 
-.feature-item .title {
+.feature-description-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-item .title {  
   margin: 0;
   margin-bottom: 16px;
 
@@ -2302,6 +2310,7 @@ form.filters-form > fieldset:last-of-type {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .header-right-column {
@@ -2822,6 +2831,6 @@ form.contact-us-form .contact-us-button {
 }
 
 body.catalog-page  {
-  background-image: -webkit-linear-gradient( 90deg, #9db1a5 0%, #849d8f 100%);
-  background-image: -ms-linear-gradient( 90deg, #9db1a5 0%, #849d8f 100%);
+  background-image: -webkit-linear-gradient( 90deg, #9db1a5 0%, #849d8f 100%),
+                    -ms-linear-gradient( 90deg, #9db1a5 0%, #849d8f 100%);
 }
