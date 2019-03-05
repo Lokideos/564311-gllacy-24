@@ -2002,10 +2002,7 @@ form.authentication .authentication-submit {
 .ingredient-filters .filter-background {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;  
+  display: flex;  
   padding: 14px;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -2729,9 +2726,14 @@ form.contact-us-form .contact-us-button {
   border-radius: 50%;
 }
 
+.ingredient-checkbox:first-of-type + label {
+  margin: 0;
+}
+
 .ingredient-checkbox + label {
   position: relative;
 
+  margin-left: 20px;
   padding-top: 2px;
   padding-left: 33px;
 }
@@ -2742,10 +2744,12 @@ form.contact-us-form .contact-us-button {
   position: absolute;
   top: 0;
   left: 0;
+
+  transform: scale(0.9);
 }
 
 .ingredient-checkbox:checked + label::before {
-  content: url("../img/catalog/checkbox-on.svg")
+  content: url("../img/catalog/checkbox-on.svg");  
 }
 
 .popup-main-background-changer {
