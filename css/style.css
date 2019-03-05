@@ -1073,8 +1073,13 @@ form.authentication .authentication-submit {
 }
 
 .feature-description-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .feature-item .title {  
@@ -2309,7 +2314,8 @@ form.filters-form > fieldset:last-of-type {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .header-right-column {
@@ -2845,6 +2851,9 @@ body.catalog-page  {
 .map-iframe {
   position: relative;
   z-index: 1;
+  
+  width: 1200px;
+  height: 430px;
 
   border: none;
 }
