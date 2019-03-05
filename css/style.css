@@ -28,8 +28,6 @@ body {
   letter-spacing: 0;
   font-weight: 500;
   color: #ffffff;
-
-  background-color: #849d8f;
 }
 
 img {
@@ -294,7 +292,7 @@ input[type="radio"].visually-hidden {
   font-weight: 500;
   color: #ffffff;
 
-  background-color: #9db1a5;
+  background-color: rgba(255, 255, 255, 0.2); 
 }
 
 .search-button {
@@ -2164,6 +2162,7 @@ form.filters-form > fieldset:last-of-type {
 
   display: flex;
   flex-direction: column;
+  min-height: 881px;
 }
 
 .promos-list-item > h3 {
@@ -2304,7 +2303,7 @@ form.filters-form > fieldset:last-of-type {
   min-height: 85px;
   padding-top: 17px; 
   
-  background-color: #849d8f;
+  background-color: inherit;
 }
 
 .copyright-container {
@@ -2543,4 +2542,20 @@ form.contact-us-form .contact-us-button {
   50% {
     background-color: #E88071;
   }
+}
+
+.hidden-slide {
+  display: none;
+}
+
+.green-background {
+  background-color: #849d8f;
+}
+
+.blue-background {
+  background-color: #8996a6;
+}
+
+.brown-background {
+  background-color: #9d8b85;
 }

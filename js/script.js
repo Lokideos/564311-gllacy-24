@@ -6,6 +6,44 @@ var contactUsTextArea = popup.querySelector(".form-message-field");
 var defaultTextareaValue = "Напишите что-нибудь...";
 var contactUsInputFields = document.querySelectorAll(".contact-us-field");
 var contactUsForm = popup.querySelector(".contact-us-form");
+var promoSliders = document.querySelectorAll(".promos-list-item");
+var promoSlidersControls = document.querySelectorAll(".promos-slider-control > li");
+var body = document.querySelector("body");
+var chosenColor = "";
+
+var sliderControlsClickHandler = function(sliderControl, slides, selectedSlide, sliderControls) {
+    sliderControl.addEventListener("click", function() {
+        for (var i = 0; i < slides.length; i++) {
+            slides[i].classList.remove("hidden-slide");   
+            slides[i].classList.add("hidden-slide");
+        }
+
+        for(i = 0; i < sliderControls.length; i++) {
+            sliderControls[i].querySelector(".slider-button").classList.remove("selected-slide");            
+        }
+
+        body.classList.remove("green-background");
+        body.classList.remove("blue-background");
+        body.classList.remove("brown-background");
+
+        selectedSlide.classList.remove("hidden-slide");
+        sliderControl.querySelector(".slider-button").classList.add("selected-slide");
+
+        if (selectedSlide.classList.contains("green-background")) {
+            body.classList.add("green-background");
+        }
+        if (selectedSlide.classList.contains("blue-background")) {
+            body.classList.add("blue-background");
+        }
+        if (selectedSlide.classList.contains("brown-background")) {
+            body.classList.add("brown-background");
+        }
+    })
+}
+
+for (var i = 0; i < promoSlidersControls.length; i++) {
+    sliderControlsClickHandler(promoSlidersControls[i], promoSliders, promoSliders[i], promoSlidersControls, promoSlidersControls)
+}
 
 showPopupLink.addEventListener("click", function(evt) {
     evt.preventDefault();
