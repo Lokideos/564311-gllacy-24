@@ -1013,13 +1013,11 @@ form.authentication .authentication-submit {
 }
 
 .promos-list {
-  position: relative;
-  z-index: 0;
+  position: relative;  
 
   margin: 0;
   margin-left: 51px;
   margin-top: -78px;
-  margin-bottom: -274px;
   padding: 0;
 
   font-size: 60px;
@@ -2349,25 +2347,33 @@ form.filters-form > fieldset:last-of-type {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;
-  min-height: 881px;
+          flex-direction: column;  
+}
+
+.promos-list-item .promo-image {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .promos-list-item > h3 {
-  position: absolute;
-  top: 390px;
-  left: calc(50% - 360px);
+  position: relative;
   z-index: 1;
-
-  width: 670px; 
+  
+  display: block;
+  width: 670px;
+  margin-top: 390px;
+  margin-left: 187px;
 }
 
 .promos-list-item .promo-purchase-link {
-  position: absolute;
-  top: 543px;
-  left: calc(50% - 165px);
+  position: relative;
   z-index: 1;
-
+  
+  
+  width: 198px;
+  margin-top: 33px;
+  margin-left: 383px;
   padding-top: 8px;
   padding-left: 41px;
   padding-right: 41px;
