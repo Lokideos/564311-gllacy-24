@@ -1421,6 +1421,7 @@ form.authentication .authentication-submit {
   position: absolute;
   top: 62px;
   right: 27px;
+  z-index: 2;
 
   width: 252px;  
   padding: 25px;
@@ -2839,4 +2840,17 @@ form.contact-us-form .contact-us-button {
 body.catalog-page  {
   background-image: -webkit-linear-gradient( 90deg, #9db1a5 0%, #849d8f 100%),
                     -ms-linear-gradient( 90deg, #9db1a5 0%, #849d8f 100%);
+}
+
+.map-iframe {
+  position: relative;
+  z-index: 1;
+
+  border: none;
+}
+
+.map-placelder {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
