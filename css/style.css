@@ -1367,6 +1367,13 @@ form.authentication .authentication-submit {
   color: #323232;
 }
 
+.phone .phone-line > a {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #323232;
+}
+
 .contact-us-link {
   display: block;
   margin-top: 24px;
