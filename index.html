@@ -253,7 +253,7 @@
           <p class="address">Адрес главного офиса и&nbsp;офлайн&#8209;магазина: <span class="address-line">ул.&nbsp;Большая&nbsp;Конюшенная 19/8, Санкт-Петербург</span></p>
 
           <p class="phone">Для заказов по телефону:<br><span class="phone-line">8 812 450-25-25</span>(с 10 до 20 ежедневно)</p>
-          <a class="button contact-us-link" href="#">Форма обратной связи</a>
+          <a class="button contact-us-link" href="contact-us.html">Форма обратной связи</a>
         </div>
       </section>
     </main>    
@@ -288,6 +288,7 @@
       </div>
     </footer>
 
+    <div class="popup-main-background-changer"></div>
     <section class="modal contact-us">
       <h2 class="visually-hidden">Форма обратной связи</h2>
 
@@ -295,18 +296,18 @@
       <form class="contact-us-form" method="post" action="https://echo.htmlacademy.ru">
         <label class="visually-hidden" for="name-field" aria-label="Имя"></label>
         <input class="contact-us-field name-field" 
-               type="text" 
-               id="name-field" 
-               name="customer-name"
-               placeholder="Как вас зовут?">
+              type="text" 
+              id="name-field" 
+              name="customer-name"
+              placeholder="Как вас зовут?">
 
         <label class="visually-hidden" for="contact-us-email-field" aria-label="Email"></label>
         <input class="contact-us-field email-field" 
-               type="email" 
-               id="contact-us-email-field" 
-               name="email" 
-               pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
-               placeholder="Ваша почта для ответа?">        
+              type="email" 
+              id="contact-us-email-field" 
+              name="email" 
+              pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+              placeholder="Ваша почта для ответа?">        
 
         <label class="visually-hidden" for="form-message" aria-label="Текст обращения"></label>
         <textarea class="form-message-field" id="form-message" name="message">Напишите что-нибудь...</textarea>
@@ -316,5 +317,7 @@
 
       <button class="modal-button close-button" type="button" aria-label="Закрыть окно обратной связи"></button>
     </section>
+
+    <script src="js/script.js"></script>
   </body>
 </html>

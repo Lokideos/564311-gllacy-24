@@ -2329,8 +2329,10 @@ form.filters-form > fieldset:last-of-type {
 }
 
 .modal {
-  position: relative;
-
+  position: fixed;  
+  z-index: 10;
+  
+  display: none;
   width: 440px;
   min-height: 412px;
   margin: 0 auto;
@@ -2339,6 +2341,11 @@ form.filters-form > fieldset:last-of-type {
 
   background-color: #f8f7f4;
   border-radius: 8px;
+}
+
+.modal.contact-us {
+  top: calc(50% - 380px);
+  left: calc(50% - 220px);
 }
 
 .modal .declaration {
@@ -2484,4 +2491,56 @@ form.contact-us-form .contact-us-button {
 
 .ingredient-checkbox:checked + label::before {
   content: url("../img/catalog/checkbox-on.svg")
+}
+
+.popup-main-background-changer {
+  position: fixed;
+  top: 0;
+  height: 0;
+  z-index: 9;
+
+  display: none;
+  width: 100%;
+  height: 100%;
+
+  background-color: #000;
+  opacity: 0.3;
+}
+
+.show-background {
+  display: block;
+}
+
+.show-popup {
+  display: block;  
+
+  animation-name: popup-show;
+  animation-duration: 0.6s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.input-error {
+  animation-name: background-to-red;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes popup-show {
+  from {
+    top: -2000px;
+  }
+  to {
+    top: 100px;
+  }
+}
+
+@keyframes background-to-red {
+  0%, 100% {
+    background-color: #ffffff;
+  }
+  50% {
+    background-color: #E88071;
+  }
 }
