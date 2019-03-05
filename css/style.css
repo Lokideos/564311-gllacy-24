@@ -2303,7 +2303,7 @@ form.filters-form > fieldset:last-of-type {
   min-height: 85px;
   padding-top: 17px; 
   
-  background-color: inherit;
+  background-color: transparent;
 }
 
 .copyright-container {
@@ -2425,7 +2425,7 @@ form.contact-us-form .contact-us-button {
 }
 
 .catalog-page .page-footer::before {
-  content: "";
+  content: url("");
   
   position: absolute;
   top: 0;
@@ -2558,4 +2558,10 @@ form.contact-us-form .contact-us-button {
 
 .brown-background {
   background-color: #9d8b85;
+}
+
+body.catalog-page  {  
+  background-image: -moz-linear-gradient( 90deg, #9db1a5 0%, #849d8f 100%);
+  background-image: -webkit-linear-gradient( 90deg, #9db1a5 0%, #849d8f 100%);
+  background-image: -ms-linear-gradient( 90deg, #9db1a5 0%, #849d8f 100%);
 }
