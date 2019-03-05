@@ -1180,8 +1180,8 @@ form.authentication .authentication-submit {
   padding-bottom: 0;
 
   background-color: #ebddbd;
-  background-image: url("../img/index/features_background_full.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../img/index/features_background.png");
+  background-repeat: repeat;
   border-radius: 15px;
 }
 
