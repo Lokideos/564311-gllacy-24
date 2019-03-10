@@ -1069,6 +1069,7 @@ form.authentication {
           flex-direction: column;
   width: 560px;
   min-height: 230px;
+  margin-bottom: 30px;
   padding: 0 20px;
   padding-top: 15px;
   padding-bottom: 25px;
@@ -1448,6 +1449,7 @@ form.authentication {
   display: block;
     
   margin: 0;
+  margin-top: 3px;
   margin-bottom: 18px;  
   padding: 0;
 
@@ -1459,8 +1461,7 @@ form.authentication {
 
 .address .address-line {
   display: block;
-  padding-top: 1px;
-
+  
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -1521,12 +1522,12 @@ form.authentication {
 
 .social-networks > li {
   margin-right: 11px;
+  margin-bottom: 11px;
 }
 
 .social-networks > li:nth-of-type(4n) {
   margin-right: 0;
 }
-
 .social-button {
   position: relative;
 
@@ -1994,7 +1995,7 @@ form.authentication {
       flex-wrap: wrap;
   padding: 14px;
   padding-top: 7px;
-  padding-bottom: 7px;
+  padding-bottom: 0;
 
   border-radius: 20px;
 }
@@ -2034,13 +2035,13 @@ form.authentication {
       flex-wrap: wrap;
   padding: 14px;
   padding-top: 7px;
-  padding-bottom: 7px;
+  padding-bottom: 3px;
 
   border-radius: 20px;
 }
 
 .ingredient-filters legend {
-  margin-left: 14px;
+  margin-left: 15px;
   margin-bottom: 7px;
 
   font-size: 14px;
@@ -2097,7 +2098,7 @@ form.filters-form {
 
 .filters-form .filters-button {  
   width: 143px;
-  margin-top: 20px;
+  margin-top: 23px;
   margin-left: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -2318,10 +2319,11 @@ form.filters-form {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 9px;
+  margin-bottom: 5px;
 }
 
 .catalog-page .page-header {  
-  margin-bottom: 18px;
+  margin-bottom: 22px;
 }
 
 .logo-image {
@@ -2437,7 +2439,7 @@ form.filters-form {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .goods-list {
@@ -2578,7 +2580,7 @@ form.filters-form {
 
 .copyright-container {
   width: 190px;
-  margin-top: -7px;
+  margin-top: -4px;
   margin-left: auto;
 }
 
@@ -2729,6 +2731,7 @@ form.filters-form {
   position: relative;
 
   padding-top: 2px;
+  padding-bottom: 7px;
   padding-left: 33px;
 }
 
@@ -2760,16 +2763,17 @@ form.filters-form {
   border-radius: 50%;
 }
 
-.ingredient-checkbox:first-of-type + label {
-  margin: 0;
-}
-
 .ingredient-checkbox + label {
   position: relative;
 
-  margin-left: 20px;
+  margin-right: 20px;
   padding-top: 2px;
   padding-left: 33px;
+  padding-bottom: 7px;
+}
+
+.ingredient-checkbox:nth-of-type(5) + label {
+  margin-right: 0;
 }
 
 .ingredient-checkbox + label::before {
