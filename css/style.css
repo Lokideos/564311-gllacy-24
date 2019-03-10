@@ -1740,28 +1740,24 @@ form.authentication .authentication-submit {
   border: 2px solid #8fbdec;
 }
 
-.contact-us-form .contact-us-field::-webkit-input-placeholder {
+.contact-us-field::-webkit-input-placeholder,
+.form-message-field::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #999999;
 }
 
-.contact-us-form .contact-us-field::-moz-placeholder {
+.contact-us-field::-moz-placeholder,
+.form-message-field::-moz-placeholder {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #999999;
 }
 
-.contact-us-form .contact-us-field:-moz-placeholder {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #999999;
-}
-
-.contact-us-form .contact-us-field:-ms-input-placeholder {
+.contact-us-field:-ms-input-placeholder,
+.form-message-field::-ms-input-placeholder {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -1771,8 +1767,8 @@ form.authentication .authentication-submit {
 .contact-us-form .form-message-field {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
-  color: #999999;
+  font-weight: 700;
+  color: #323232;
 
   border: 1px solid #d3d3d2;
 }
