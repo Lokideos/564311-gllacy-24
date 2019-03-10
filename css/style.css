@@ -2292,9 +2292,10 @@ form.filters-form > fieldset:last-of-type {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 9px;
 }
 
-.catalog-page .page-header {
+.catalog-page .page-header {  
   margin-bottom: 18px;
 }
 
