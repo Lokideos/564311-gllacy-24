@@ -110,7 +110,9 @@ input[type="radio"].visually-hidden {
 }
 
 .header-logo-link {
-  margin-right: 10px;
+  width: 154px;
+  height: 64px;
+  margin-right: 10px;  
 }
 
 .menu-link {
@@ -168,6 +170,7 @@ input[type="radio"].visually-hidden {
 }
 
 .navigation-menu {
+  width: 378px;
   margin: 0;
   margin-top: 20px;
   padding: 0;
@@ -1499,9 +1502,6 @@ form.authentication .authentication-submit {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -1514,6 +1514,14 @@ form.authentication .authentication-submit {
   padding-top: 12px;
 
   list-style: none;
+}
+
+.social-networks > li {
+  margin-right: 11px;
+}
+
+.social-networks > li:nth-of-type(4n) {
+  margin-right: 0;
 }
 
 .social-button {
@@ -1979,6 +1987,7 @@ form.authentication .authentication-submit {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;  
+  flex-wrap: wrap;
   padding: 14px;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -2016,7 +2025,8 @@ form.authentication .authentication-submit {
 .ingredient-filters .filter-background {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;  
+  display: flex;
+  flex-wrap: wrap;
   padding: 14px;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -2417,6 +2427,7 @@ form.filters-form > fieldset:last-of-type {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  flex-wrap: wrap;
 
   margin-bottom: 40px;
 }
