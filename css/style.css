@@ -218,15 +218,15 @@ input[type="radio"].visually-hidden {
   color: #323232;
 }
 
-.catalog-categoires-item:last-of-type .categories-link {
+.catalog-categories-item:last-of-type .categories-link {
   margin: 0;
 }
 
-.catalog-categoires-item::nth-of-type(2) .categories-link {
+.catalog-categories-item::nth-of-type(2) .categories-link {
   padding-top: 10px;
 }
 
-.catalog-categoires-item:last-of-type .categories-link {
+.catalog-categories-item:last-of-type .categories-link {
   padding-bottom: 12px;
 }
 
@@ -261,21 +261,21 @@ input[type="radio"].visually-hidden {
   background-color: #f6b5a5; 
 }
 
-.catalog-categoires-item:first-of-type .categories-link:hover,
-.catalog-categoires-item:first-of-type .categories-link:focus {
+.catalog-categories-item:first-of-type .categories-link:hover,
+.catalog-categories-item:first-of-type .categories-link:focus {
   border-radius: 5px 5px 0 0;  
 }
 
-.catalog-categoires-item:first-of-type .categories-link:hover {
+.catalog-categories-item:first-of-type .categories-link:hover {
   border-radius: 5px 5px 0 0;  
 }
 
-.catalog-categoires-item:last-of-type .categories-link:hover,
-.catalog-categoires-item:last-of-type .categories-link:focus {
+.catalog-categories-item:last-of-type .categories-link:hover,
+.catalog-categories-item:last-of-type .categories-link:focus {
   border-radius: 0 0 5px 5px;  
 }
 
-.catalog-categoires-item:last-of-type .categories-link:hover {
+.catalog-categories-item:last-of-type .categories-link:hover {
   border-radius: 0 0 5px 5px;  
 }
 
@@ -1342,7 +1342,7 @@ form.authentication {
   border-radius: 10px;
 }
 
-.subscription-decription {
+.subscription-description {
   margin: 0;
   margin-bottom: 35px;
 
@@ -1461,7 +1461,7 @@ form.authentication {
 
 .address .address-line {
   display: block;
-  
+
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -1836,7 +1836,7 @@ form.authentication {
   border-radius: 20px;
 }
 
-.soritng-filters-select {
+.sorting-filters-select {
   position: relative;
 
   font-size: 16px;  
@@ -1856,11 +1856,11 @@ form.authentication {
   -moz-appearance: none;  
 }
 
-.soritng-filters-select::-ms-expand {
+.sorting-filters-select::-ms-expand {
   display: none;
 }
 
-.soritng-filters-select:hover {
+.sorting-filters-select:hover {
   color: #323232;
 
   background-image: url("../img/catalog/sort_scroll_down_black.svg");
