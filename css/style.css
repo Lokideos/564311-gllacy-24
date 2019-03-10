@@ -2056,10 +2056,10 @@ form.authentication .authentication-submit {
   opacity: 0.8;
 }
 
-.fats-filters label:hover,
-.ingredient-filters label:hover,
-.fats-filters label:focus,
-.ingredient-filters label:focus {
+.fats-field-radio-button:hover + label,
+.ingredient-checkbox:hover + label,
+.fats-field-radio-button:focus + label,
+.ingredient-checkbox:focus + label {
   opacity: 1;
 }
 
