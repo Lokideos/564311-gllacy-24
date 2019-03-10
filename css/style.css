@@ -1533,19 +1533,6 @@ form.authentication .authentication-submit {
   border-radius: 50%;
 }
 
-.social-button::after {
-  content: "";
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  opacity: 0.8;
-}
-
 .twitter::before {
   content: url("../img/shared/twitter_icon.svg");
 }
