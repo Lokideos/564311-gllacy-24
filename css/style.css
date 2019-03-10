@@ -22,7 +22,7 @@
 body {
   margin: 0;
 
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0;
@@ -218,15 +218,15 @@ input[type="radio"].visually-hidden {
   color: #323232;
 }
 
-.catalog-categories > li:last-of-type .categories-link {
+.catalog-categoires-item:last-of-type .categories-link {
   margin: 0;
 }
 
-.catalog-categories > li:nth-of-type(2) .categories-link {
+.catalog-categoires-item::nth-of-type(2) .categories-link {
   padding-top: 10px;
 }
 
-.catalog-categories > li:last-of-type .categories-link {
+.catalog-categoires-item:last-of-type .categories-link {
   padding-bottom: 12px;
 }
 
@@ -261,21 +261,21 @@ input[type="radio"].visually-hidden {
   background-color: #f6b5a5; 
 }
 
-.catalog-categories > li:first-of-type .categories-link:hover,
-.catalog-categories > li:first-of-type .categories-link:focus {
+.catalog-categoires-item:first-of-type .categories-link:hover,
+.catalog-categoires-item:first-of-type .categories-link:focus {
   border-radius: 5px 5px 0 0;  
 }
 
-.catalog-categories > li:first-of-type .categories-link:hover {
+.catalog-categoires-item:first-of-type .categories-link:hover {
   border-radius: 5px 5px 0 0;  
 }
 
-.catalog-categories > li:last-of-type .categories-link:hover,
-.catalog-categories > li:last-of-type .categories-link:focus {
+.catalog-categoires-item:last-of-type .categories-link:hover,
+.catalog-categoires-item:last-of-type .categories-link:focus {
   border-radius: 0 0 5px 5px;  
 }
 
-.catalog-categories > li:last-of-type .categories-link:hover {
+.catalog-categoires-item:last-of-type .categories-link:hover {
   border-radius: 0 0 5px 5px;  
 }
 
@@ -327,7 +327,7 @@ input[type="radio"].visually-hidden {
   position: relative;
 }
 
-form.search {
+.search {
   position: absolute;
   top: 36px;
   right: 0px;
@@ -347,11 +347,11 @@ form.search {
           box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
 }
 
-.search-section:hover form.search {
+.search-section:hover .search {
   display: block;
 }
 
-form.search .search-field {
+.search .search-field {
   min-width: 308px;
   padding-top: 9px;
   padding-bottom: 6px;
@@ -368,14 +368,14 @@ form.search .search-field {
           box-shadow: 0 0 0 1px #d3d3d2;
 }
 
-form.search .search-field:hover {
+.search .search-field:hover {
   border: 2px solid #c7c6c5;  
   border-radius: 5px;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-form.search .search-field:focus {
+.search .search-field:focus {
   outline: none;
   border: 2px solid #8fbdec;
   border-radius: 5px;
@@ -383,28 +383,28 @@ form.search .search-field:focus {
           box-shadow: none;
 }
 
-form.search .search-field::-webkit-input-placeholder {
+.search .search-field::-webkit-input-placeholder {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
   color: #999999;
 }
 
-form.search .search-field::-moz-placeholder {
+.search .search-field::-moz-placeholder {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
   color: #999999;
 }
 
-form.search .search-field:-moz-placeholder {
+.search .search-field:-moz-placeholder {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
   color: #999999;
 }
 
-form.search .search-field:-ms-input-placeholder {
+.search .search-field:-ms-input-placeholder {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
@@ -434,7 +434,7 @@ form.search .search-field:-ms-input-placeholder {
   list-style: none;
 }
 
-.page-header-authentication:hover form.authentication {
+.page-header-authentication:hover .authentication {
   display: block;
 }
 
@@ -722,7 +722,7 @@ form.authentication {
           box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
 }
 
-form.authentication .authentication-field {
+.authentication .authentication-field {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   min-width: 240px;
@@ -742,20 +742,20 @@ form.authentication .authentication-field {
           box-shadow: 0 0 0 1px #d3d3d2;
 }
 
-form.authentication .authentication-field:last-of-type {
+.authentication .authentication-field:last-of-type {
   margin-bottom: 17px;
 }
 
-form.authentication .authentication-field:hover {
+.authentication .authentication-field:hover {
   border: 2px solid #c7c6c5;
 }
 
-form.authentication .authentication-field:focus {
+.authentication .authentication-field:focus {
   outline: none;
   border: 2px solid #8fbdec;
 }
 
-form.authentication .authentication-bottom {
+.authentication .authentication-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -785,35 +785,35 @@ form.authentication .authentication-bottom {
           order: 1;
 }
 
-form.authentication .authentication-field::-webkit-input-placeholder {
+.authentication .authentication-field::-webkit-input-placeholder {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
   color: #999999;
 }
 
-form.authentication .authentication-field::-moz-placeholder {
+.authentication .authentication-field::-moz-placeholder {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
   color: #999999;
 }
 
-form.authentication .authentication-field:-moz-placeholder {
+.authentication .authentication-field:-moz-placeholder {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
   color: #999999;
 }
 
-form.authentication .authentication-field:-ms-input-placeholder {
+.authentication .authentication-field:-ms-input-placeholder {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
   color: #999999;
 }
 
-form.authentication .authentication-link {
+.authentication .authentication-link {
   position: relative;
 
   display: block;
@@ -829,14 +829,14 @@ form.authentication .authentication-link {
           text-decoration-color: #b2b2b2;
 }
 
-form.authentication .authentication-link:last-of-type {
+.authentication .authentication-link:last-of-type {
   position: relative;
   top: -2px;
 }
 
-form.authentication .authentication-link:hover,
-form.authentication .authentication-link:focus,
-form.authentication .authentication-link:active {
+.authentication .authentication-link:hover,
+.authentication .authentication-link:focus,
+.authentication .authentication-link:active {
   color: #e84d37;
 
   -webkit-text-decoration-color: rgba(232, 77, 55, 0.3);
@@ -844,7 +844,7 @@ form.authentication .authentication-link:active {
           text-decoration-color: rgba(232, 77, 55, 0.3);
 }
 
-form.authentication .authentication-submit {    
+.authentication .authentication-submit {    
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 25px;
@@ -1360,7 +1360,7 @@ form.authentication .authentication-submit {
           align-items: center;
 }
 
-.subscription-form .subscription-email-field {
+.subscription-email-field {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   min-width: 365px;
@@ -1381,37 +1381,37 @@ form.authentication .authentication-submit {
 
 }
 
-.subscription-form .subscription-email-field:hover {
+.subscription-email-field:hover {
   border: 2px solid #c7c6c5;
 }
 
-.subscription-form .subscription-email-field:focus {
+.subscription-email-field:focus {
   outline: none;
   border: 2px solid #8fbdec;
 }
 
-.subscription-form .subscription-email-field::-webkit-input-placeholder {
+.subscription-email-field::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #999999;
 }
 
-.subscription-form .subscription-email-field::-moz-placeholder {
+.subscription-email-field::-moz-placeholder {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #999999;
 }
 
-.subscription-form .subscription-email-field:-moz-placeholder {
+.subscription-email-field:-moz-placeholder {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #999999;
 }
 
-.subscription-form .subscription-email-field:-ms-input-placeholder {
+.subscription-email-field:-ms-input-placeholder {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -1604,15 +1604,15 @@ form.authentication .authentication-submit {
   list-style: none;
 }
 
-.additional-info > li:nth-of-type(2n-1) {  
+.info-link-item:nth-of-type(2n-1) {  
   min-width: 123px;  
 }
 
-.additional-info > li:nth-of-type(2n-1) .info-link { 
+.info-link-item:nth-of-type(2n-1) .info-link { 
   padding-left: 23px;
 }
 
-.additional-info > li:nth-of-type(2n) {
+.info-link-item:nth-of-type(2n) {
   min-width: 165px;
 }
 
@@ -2084,12 +2084,12 @@ form.filters-form {
   width: 880px;
 }
 
-form.filters-form > fieldset {
+.filters-form > fieldset {
   margin-right: 15px;
   margin-bottom: 14px;
 }
 
-form.filters-form > fieldset:last-of-type {
+.filters-form > fieldset:last-of-type {
   margin: 0;
 }
 
@@ -2622,7 +2622,7 @@ form.filters-form > fieldset:last-of-type {
   
 }
 
-form.contact-us-form {
+.contact-us-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2635,7 +2635,7 @@ form.contact-us-form {
           align-items: flex-start;
 }
 
-form.contact-us-form .contact-us-field {
+.contact-us-form .contact-us-field {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   min-width: 265px;
@@ -2656,7 +2656,7 @@ form.contact-us-form .contact-us-field {
           box-shadow: 0 0 0 1px #d3d3d2;
 }
 
-form.contact-us-form .form-message-field {
+.contact-us-form .form-message-field {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 425px;
@@ -2675,7 +2675,7 @@ form.contact-us-form .form-message-field {
   resize: none;
 }
 
-form.contact-us-form .contact-us-button {
+.contact-us-form .contact-us-button {
   -ms-flex-item-align: end;
       align-self: flex-end;
   margin-right: 11px;
