@@ -6,7 +6,7 @@
     <meta name="keywords" content="Глэйси,Мороженное,Пломбир,Крем-рюле,Магазин">
     <meta name="description" content="Если вас терзает неутолимая жажда отведать вкуснейшего мороженного, то добро пожаловать!">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style_min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="green-background">    
     <header class="page-header centring-container">
@@ -236,8 +236,9 @@
               <form class="subscription-form" method="post" action="https://echo.htmlacademy.ru">
                 <label class="visually-hidden" for="subscription-email-field" aria-label="Электронная почта"></label>
                 <input class="subscription-email-field" type="email" id="subscription-email-field" name="email" placeholder="Электронная почта">
-
-                <button class="button subscription-form-button" type="submit">Отправить</button>
+                <div class="subscribe-link-wrapper">
+                  <button class="button subscription-form-button" type="submit">Отправить</button>
+                </div>
               </form>
             </div>
           </section>
@@ -254,7 +255,9 @@
           <p class="address">Адрес главного офиса и&nbsp;офлайн&#8209;магазина: <span class="address-line">ул.&nbsp;Большая&nbsp;Конюшенная 19/8, Санкт-Петербург</span></p>
 
           <p class="phone">Для заказов по телефону:<span class="phone-line"><a href="tel:+78124502525">8 812 450-25-25</a></span>(с 10 до 20 ежедневно)</p>
-          <a class="button contact-us-link" href="contact-us.html">Форма обратной связи</a>
+          <div class="contact-us-link-wrapper">
+            <a class="button contact-us-link" href="contact-us.html">Форма обратной связи</a>
+          </div>
         </div>
       </section>
     </main>    
@@ -311,7 +314,7 @@
               placeholder="Ваша почта для ответа?">        
 
         <label class="visually-hidden" for="form-message" aria-label="Текст обращения"></label>
-        <textarea class="form-message-field" id="form-message" name="message">Напишите что-нибудь...</textarea>
+        <textarea class="form-message-field" id="form-message" name="message" placeholder="Напишите что-нибудь..."></textarea>
 
         <button class="button contact-us-button" type="submit">Отправить</button>
       </form>
