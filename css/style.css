@@ -1990,7 +1990,8 @@ form.authentication {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;  
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;  
+      flex-wrap: wrap;
   padding: 14px;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -2029,7 +2030,8 @@ form.authentication {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 14px;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -2402,7 +2404,9 @@ form.filters-form {
   position: relative;
   z-index: 1;
   
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  
+          box-sizing: border-box;
   width: 281px;
   margin-top: 33px;
   margin-left: 383px;
@@ -2430,7 +2434,8 @@ form.filters-form {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 
   margin-bottom: 40px;
 }
