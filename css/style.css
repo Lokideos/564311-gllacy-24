@@ -1646,7 +1646,7 @@ form.authentication {
   opacity: 0.3;
 }
 
-.additional-info > li:nth-of-type(2n-1) .info-link::before { 
+.info-link-item:nth-of-type(2n-1) .info-link::before { 
   width: calc(100% - 23px);
 }
 
