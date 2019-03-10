@@ -1113,11 +1113,13 @@ form.authentication .authentication-submit {
 }
 
 .raspbery-promo {
+  background-color: #961c36;
   background-image: url("../img/index/index_feature_raspberry.jpg");
   background-repeat: no-repeat;
 }
 
 .chocolate-promo {
+  background-color: #3e2419;
   background-image: url("../img/index/index_feature_chocolate.jpg");
   background-repeat: no-repeat; 
 }
