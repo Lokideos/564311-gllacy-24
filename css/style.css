@@ -166,6 +166,7 @@ input[type="radio"].visually-hidden {
 
 .catalog-categories-container {
   position: relative;
+
   height: 33px;
 }
 
@@ -204,7 +205,7 @@ input[type="radio"].visually-hidden {
   background-color: #f8f7f4;
 }
 
-.catalog-categories .categoires-link {
+.catalog-categories .categories-link {
   display: block;
   margin-bottom: 3px;
   padding-top: 5px;
@@ -217,19 +218,19 @@ input[type="radio"].visually-hidden {
   color: #323232;
 }
 
-.catalog-categories > li:last-of-type .categoires-link {
+.catalog-categories > li:last-of-type .categories-link {
   margin: 0;
 }
 
-.catalog-categories > li:nth-of-type(2) .categoires-link {
+.catalog-categories > li:nth-of-type(2) .categories-link {
   padding-top: 10px;
 }
 
-.catalog-categories > li:last-of-type .categoires-link {
+.catalog-categories > li:last-of-type .categories-link {
   padding-bottom: 12px;
 }
 
-.catalog-categories .new-goods.categoires-link {
+.catalog-categories .new-goods.categories-link {
   position: relative;
 
   margin: 0;
@@ -238,7 +239,7 @@ input[type="radio"].visually-hidden {
   padding-left: 19px;
 }
 
-.new-goods.categoires-link::before {
+.new-goods.categories-link::before {
   content: "";
 
   position: absolute;
@@ -251,41 +252,41 @@ input[type="radio"].visually-hidden {
   background-color: #d1d0ce;
 }
 
-.catalog-categories .categoires-link:hover,
-.catalog-categories .categoires-link:focus {
+.catalog-categories .categories-link:hover,
+.catalog-categories .categories-link:focus {
   background-color: #fbded7;  
 }
 
-.catalog-categories .categoires-link:active {
+.catalog-categories .categories-link:active {
   background-color: #f6b5a5; 
 }
 
-.catalog-categories > li:first-of-type .categoires-link:hover,
-.catalog-categories > li:first-of-type .categoires-link:focus {
+.catalog-categories > li:first-of-type .categories-link:hover,
+.catalog-categories > li:first-of-type .categories-link:focus {
   border-radius: 5px 5px 0 0;  
 }
 
-.catalog-categories > li:first-of-type .categoires-link:hover {
+.catalog-categories > li:first-of-type .categories-link:hover {
   border-radius: 5px 5px 0 0;  
 }
 
-.catalog-categories > li:last-of-type .categoires-link:hover,
-.catalog-categories > li:last-of-type .categoires-link:focus {
+.catalog-categories > li:last-of-type .categories-link:hover,
+.catalog-categories > li:last-of-type .categories-link:focus {
   border-radius: 0 0 5px 5px;  
 }
 
-.catalog-categories > li:last-of-type .categoires-link:hover {
+.catalog-categories > li:last-of-type .categories-link:hover {
   border-radius: 0 0 5px 5px;  
 }
 
-.categoires-link.selected,
-.categoires-link.selected:hover {
+.categories-link.selected,
+.categories-link.selected:hover {
   color: #ffffff;
 
   background-color: #d07058;
 }
 
-.new-goods.categoires-link {
+.new-goods.categories-link {
   font-size: 14px;
   line-height: 16px;
   font-weight: 700;
@@ -2302,7 +2303,7 @@ form.filters-form > fieldset:last-of-type {
 
 .page-header {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 
   display: -webkit-box;
 
