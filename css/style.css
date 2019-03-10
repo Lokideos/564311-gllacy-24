@@ -593,6 +593,8 @@ form.search .search-field:-ms-input-placeholder {
 .cart-good-image {
   width: 33px;
   height: 33px;
+
+  border-radius: 50%;
 }
 
 .goods-table tr:last-of-type {
@@ -2897,4 +2899,8 @@ body.catalog-page  {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.good-image {
+  border-radius: 50%;
 }
