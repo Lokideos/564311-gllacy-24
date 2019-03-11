@@ -318,8 +318,8 @@ input[type="radio"].visually-hidden {
   left: 7px;
 }
 
-.search-button:hover svg path,
-.search-button:focus svg path {
+.search-button:hover path,
+.search-button:focus path {
   fill: #323232;
 }
 
@@ -695,10 +695,10 @@ input[type="radio"].visually-hidden {
   left: 16px;
 }
 
-.authentication-button:hover svg path,
-.authentication-button:hover svg polygon,
-.authentication-button:focus svg path,
-.authentication-button:focus svg polygon {
+.authentication-button:hover path,
+.authentication-button:hover polygon,
+.authentication-button:focus path,
+.authentication-button:focus polygon {
   fill: #000000;
 }
 
