@@ -2772,7 +2772,7 @@ form.filters-form {
   padding-bottom: 7px;
 }
 
-.ingredient-checkbox:nth-of-type(5) + label {
+.ingredient-checkbox:nth-of-type(5n) + label {
   margin-right: 0;
 }
 
