@@ -699,7 +699,7 @@ input[type="radio"].visually-hidden {
 .authentication-button:hover polygon,
 .authentication-button:focus path,
 .authentication-button:focus polygon {
-  fill: #000000;
+  fill: #323232;
 }
 
 form.authentication {
@@ -1751,6 +1751,15 @@ form.authentication {
   border: 1px solid #d3d3d2;
 }
 
+.contact-us-form .form-message-field {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #323232;
+
+  border: 1px solid #d3d3d2;
+}
+
 .contact-us-form .contact-us-field:hover,
 .contact-us-form .form-message-field:hover {
   border: 2px solid #c7c6c5;
@@ -1778,21 +1787,20 @@ form.authentication {
   color: #999999;
 }
 
-.contact-us-field:-ms-input-placeholder,
-.form-message-field::-ms-input-placeholder {
+.contact-us-field:-moz-placeholder,
+.form-message-field:-moz-placeholder {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #999999;
 }
 
-.contact-us-form .form-message-field {
+.contact-us-field:-ms-input-placeholder,
+.form-message-field:-ms-input-placeholder {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 700;
-  color: #323232;
-
-  border: 1px solid #d3d3d2;
+  font-weight: 400;
+  color: #999999;
 }
 
 .contact-us-form .form-message-field:focus {
@@ -1849,7 +1857,7 @@ form.authentication {
   border: none;
   background-color: transparent;
   background-image: url("../img/catalog/sort_scroll_down.svg");
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-position: top 4px right 0px;
 
   -webkit-appearance: none;
@@ -1860,7 +1868,8 @@ form.authentication {
   display: none;
 }
 
-.sorting-filters-select:hover {
+.sorting-filters-select:hover,
+.sorting-filters-select:focus {
   color: #323232;
 
   background-image: url("../img/catalog/sort_scroll_down_black.svg");
@@ -2912,4 +2921,8 @@ body.catalog-page  {
 
 .good-image {
   border-radius: 50%;
+}
+
+.sorting-filters .filter-background {
+  width: 193px;
 }
