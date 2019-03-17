@@ -1795,8 +1795,7 @@ form.authentication {
   color: #999999;
 }
 
-.contact-us-field:-ms-input-placeholder,
-.form-message-field:-ms-input-placeholder {
+.contact-us-field.contact-us-field:-ms-input-placeholder {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
