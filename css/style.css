@@ -1829,7 +1829,7 @@ form.authentication {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: block;
-    
+
   width: 193px;
   padding: 7px 20px 8px 15px;  
 
@@ -1845,7 +1845,7 @@ form.authentication {
   color: #ffffff; 
   
   width: 163px;  
-  padding-right: 18px;  
+  padding-right: 14px;  
 
   border: none;
   background-color: transparent;
